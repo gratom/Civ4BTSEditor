@@ -31,7 +31,7 @@ namespace Tools
             action?.Invoke();
             Destroy(gameObject);
         }
-        
+
         public static async UniTask DelayAsync(float time, Action action)
         {
             await UniTask.Delay(TimeSpan.FromSeconds(time), DelayType.Realtime);

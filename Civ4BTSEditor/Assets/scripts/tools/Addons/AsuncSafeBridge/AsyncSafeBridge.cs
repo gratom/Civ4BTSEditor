@@ -11,7 +11,7 @@ namespace Tools
             return AsyncSafeBridge.SafeAwait(originalTask);
         }
     }
-    
+
     public class AsyncSafeBridge : MonoBehaviour
     {
         private ITaskContainer container;

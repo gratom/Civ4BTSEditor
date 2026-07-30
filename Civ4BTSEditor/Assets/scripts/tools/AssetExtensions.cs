@@ -15,7 +15,7 @@ namespace Tools
     {
         private const string additionSavePath = "/Standart_Saves/dynamicData";
 
-        [MenuItem("Tools/BUILDS/Open Saves Folder &s",false,3000)]
+        [MenuItem("Tools/BUILDS/Open Saves Folder &s", false, 3000)]
         private static void OpenPlayerPrefsFolder()
         {
             string path = Application.persistentDataPath + additionSavePath;

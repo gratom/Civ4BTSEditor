@@ -23,7 +23,7 @@ namespace Tools
         private readonly Func<T> resolver;
         private T cachedValue;
         private bool isCached;
-        
+
         /// <summary>
         /// Gets the cached value. The first access invokes the resolver, then caches the result.
         /// </summary>
