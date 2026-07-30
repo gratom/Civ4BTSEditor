@@ -29,7 +29,6 @@ public class XMLDatabaseConfigEditor : Editor
 
     private void OnEditorUpdate()
     {
-
         if (pendingAction != ConfirmAction.None)
         {
             if (EditorApplication.timeSinceStartup > confirmationTimer)
@@ -45,6 +44,11 @@ public class XMLDatabaseConfigEditor : Editor
         XMLDatabaseConfig config = (XMLDatabaseConfig)target;
 
         DrawDefaultInspector();
+
+        EditorGUILayout.Space(10);
+
+        // Блок визуального превью отступов
+        DrawXmlPreview(config);
 
         EditorGUILayout.Space(10);
 
@@ -101,7 +105,8 @@ public class XMLDatabaseConfigEditor : Editor
 
         if (GUILayout.Button("Save local file -> link\n(SAVE FILE TO CIV)", GUILayout.Height(40)))
         {
-            if (pendingAction == ConfirmAction.SaveToLink)
+            // Исправление бага из прошлого кода: клик по главной кнопке должен запускать подтверждение, а не проверяться на равенство
+            if (pendingAction != ConfirmAction.SaveToLink)
             {
                 TriggerConfirmation(ConfirmAction.SaveToLink);
             }
@@ -122,6 +127,58 @@ public class XMLDatabaseConfigEditor : Editor
         #endregion
 
         GUI.backgroundColor = Color.white;
+    }
+
+    private void DrawXmlPreview(XMLDatabaseConfig config)
+    {
+        EditorGUILayout.LabelField("XML Trim Preview", EditorStyles.boldLabel);
+
+        if (config.internalXmlAsset == null)
+        {
+            EditorGUILayout.HelpBox("Внутренний XML-ассет не задан. Сделайте Update из файла мода.", MessageType.Info);
+            return;
+        }
+
+        string fullText = config.internalXmlAsset.text;
+        int length = fullText.Length;
+
+        SerializedProperty pStartProp = serializedObject.FindProperty("prefixOffsetFromStart");
+        SerializedProperty pEndProp = serializedObject.FindProperty("postfixOffsetFromEnd");
+
+        int pStart = pStartProp != null ? Mathf.Clamp(pStartProp.intValue, 0, length) : 0;
+        int pEnd = pEndProp != null ? Mathf.Clamp(pEndProp.intValue, 0, length - pStart) : 0;
+
+        string prefixText = length > 0 ? fullText.Substring(0, Mathf.Min(pStart, length)) : "";
+        string postfixText = length > pEnd ? fullText.Substring(length - pEnd) : "";
+
+        string afterPrefixText = fullText.Substring(prefixText.Length, 50);
+        string beforePostfixText = fullText.Substring(length - pEnd - 50, 50);
+        
+        GUIStyle boxStyle = new GUIStyle(EditorStyles.textArea);
+        boxStyle.richText = true;
+        boxStyle.fontSize = 10;
+        boxStyle.wordWrap = true;
+
+        string previewHtml = 
+            $"<b><color=#E6DB74>{prefixText}</color>" +
+            $"<b><color=#66D9EF>{afterPrefixText}...\n...{beforePostfixText}</color>" +
+            $"<b><color=#FD971F>{postfixText}</color>";
+
+        EditorGUILayout.LabelField(new GUIContent(previewHtml), boxStyle, GUILayout.MinHeight(250));
+    }
+
+    // Вспомогательный метод для создания фоновой текстуры для GUIStyle
+    private Texture2D MakeTex(int width, int height, Color col)
+    {
+        Color[] pix = new Color[width * height];
+        for (int i = 0; i < pix.Length; ++i)
+        {
+            pix[i] = col;
+        }
+        Texture2D result = new Texture2D(width, height);
+        result.SetPixels(pix);
+        result.Apply();
+        return result;
     }
 
     private void TriggerConfirmation(ConfirmAction action)

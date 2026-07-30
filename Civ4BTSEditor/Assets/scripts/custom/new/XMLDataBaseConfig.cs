@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
+using System.Text;
 using UnityEditor;
 using UnityEngine;
 
@@ -86,4 +88,63 @@ public class XMLDatabaseConfig : ScriptableObject
         string fileName = $"{name}_Copy.xml";
         return Path.Combine(directory, fileName).Replace("\\", "/");
     }
+
+    [Header("XML Formatting Setup")]
+    [SerializeField] private int prefixOffsetFromStart;
+    [SerializeField] private int postfixOffsetFromEnd;
+
+    [HideInInspector]
+    [SerializeField] private string xmlPrefix = "";
+    
+    [HideInInspector]
+    [SerializeField] private string xmlPostfix = "";
+
+    public string GetText()
+    {
+        if (internalXmlAsset == null)
+        {
+            Debug.LogWarning("[XMLConfig] Внутренний ассет пуст, нечего читать.");
+            return string.Empty;
+        }
+
+        string fullText = internalXmlAsset.text;
+        
+        int safePrefixOffset = Mathf.Clamp(prefixOffsetFromStart, 0, fullText.Length);
+        int safePostfixOffset = Mathf.Clamp(postfixOffsetFromEnd, 0, fullText.Length - safePrefixOffset);
+
+        xmlPrefix = fullText.Substring(0, safePrefixOffset);
+        xmlPostfix = fullText.Substring(fullText.Length - safePostfixOffset);
+
+        int contentLength = fullText.Length - safePrefixOffset - safePostfixOffset;
+        return fullText.Substring(safePrefixOffset, contentLength);
+    }
+
+    public void SetText(string innerContent)
+    {
+        if (internalXmlAsset == null)
+        {
+            Debug.LogError("[XMLConfig] Невозможно записать: внутренний TextAsset отсутствует!");
+            return;
+        }
+
+        string fullText = internalXmlAsset.text;
+        int safePrefixOffset = Mathf.Clamp(prefixOffsetFromStart, 0, fullText.Length);
+        int safePostfixOffset = Mathf.Clamp(postfixOffsetFromEnd, 0, fullText.Length - safePrefixOffset);
+
+        xmlPrefix = fullText.Substring(0, safePrefixOffset);
+        xmlPostfix = fullText.Substring(fullText.Length - safePostfixOffset);
+
+        string finalContent = xmlPrefix + innerContent + xmlPostfix;
+
+        string internalAssetPath = AssetDatabase.GetAssetPath(internalXmlAsset);
+        string fullInternalPath = Path.GetFullPath(internalAssetPath);
+
+        File.WriteAllText(fullInternalPath, finalContent, Encoding.UTF8);
+
+        AssetDatabase.ImportAsset(internalAssetPath);
+        EditorUtility.SetDirty(this);
+
+        Debug.Log("[XMLConfig] Текст успешно обновлен по отступам.");
+    }
+
 }
