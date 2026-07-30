@@ -13,9 +13,6 @@ public class XMLDatabaseConfig : ScriptableObject
     [Tooltip("Локальная копия файла внутри проекта Unity для работы парсера")]
     public TextAsset internalXmlAsset;
 
-    /// <summary>
-    /// Импорт: копирует файл из внешней папки мода внутрь проекта Unity
-    /// </summary>
     public void UpdateFromExternalFile()
     {
         if (string.IsNullOrEmpty(externalFilePath) || !File.Exists(externalFilePath))
@@ -30,10 +27,8 @@ public class XMLDatabaseConfig : ScriptableObject
             return;
         }
 
-        // Копируем файл физически (перезаписываем локальный)
         File.Copy(externalFilePath, internalAssetPath, true);
 
-        // Обновляем базу данных Unity, чтобы она подхватила изменения
         AssetDatabase.ImportAsset(internalAssetPath);
         internalXmlAsset = AssetDatabase.LoadAssetAtPath<TextAsset>(internalAssetPath);
 
@@ -61,10 +56,7 @@ public class XMLDatabaseConfig : ScriptableObject
             {
                 return;
             }
-
-            // Создаем пустой XML-файл (или файл с базовой структурой), если его не было
             File.WriteAllText(internalAssetPath, "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Civ4TechInfos xmlns=\"\">\n</Civ4TechInfos>");
-
             AssetDatabase.ImportAsset(internalAssetPath);
             internalXmlAsset = AssetDatabase.LoadAssetAtPath<TextAsset>(internalAssetPath);
             EditorUtility.SetDirty(this);
@@ -72,21 +64,16 @@ public class XMLDatabaseConfig : ScriptableObject
 
         string fullInternalPath = Path.GetFullPath(internalAssetPath);
 
-        // Гарантируем, что внешняя папка назначения существует
         string externalDir = Path.GetDirectoryName(externalFilePath);
         if (!Directory.Exists(externalDir))
         {
             Directory.CreateDirectory(externalDir);
         }
 
-        // Перезаписываем внешний файл мода
         File.Copy(fullInternalPath, externalFilePath, true);
         Debug.Log($"[TechConfig] Успешно сохранено во внешний файл: {externalFilePath}");
     }
 
-    /// <summary>
-    /// Создает путь для внутренней копии рядом с самим ScriptableObject
-    /// </summary>
     private string GetOrCreateInternalAssetPath()
     {
         string soPath = AssetDatabase.GetAssetPath(this);
@@ -96,8 +83,6 @@ public class XMLDatabaseConfig : ScriptableObject
         }
 
         string directory = Path.GetDirectoryName(soPath);
-
-        // Файл будет называться так же, как SO, но с расширением .xml
         string fileName = $"{name}_Copy.xml";
         return Path.Combine(directory, fileName).Replace("\\", "/");
     }

@@ -6,7 +6,6 @@ using UnityEngine;
 [CustomEditor(typeof(XMLDatabaseConfig))]
 public class XMLDatabaseConfigEditor : Editor
 {
-    // Перечисление для отслеживания, какое действие ожидает подтверждения
     private enum ConfirmAction
     {
         None,
@@ -16,11 +15,10 @@ public class XMLDatabaseConfigEditor : Editor
 
     private ConfirmAction pendingAction = ConfirmAction.None;
     private double confirmationTimer = 0f;
-    private const float ConfirmationDuration = 3f; // Время на подтверждение в секундах
+    private const float ConfirmationDuration = 3f;
 
     private void OnEnable()
     {
-        // Подписываемся на обновление редактора для платного таймера сброса
         EditorApplication.update += OnEditorUpdate;
     }
 
@@ -31,13 +29,13 @@ public class XMLDatabaseConfigEditor : Editor
 
     private void OnEditorUpdate()
     {
-        // Если таймер активен, проверяем не истекло ли время
+
         if (pendingAction != ConfirmAction.None)
         {
             if (EditorApplication.timeSinceStartup > confirmationTimer)
             {
                 pendingAction = ConfirmAction.None;
-                Repaint(); // Перерисовываем инспектор, чтобы скрыть кнопку подтверждения
+                Repaint();
             }
         }
     }
@@ -50,7 +48,6 @@ public class XMLDatabaseConfigEditor : Editor
 
         EditorGUILayout.Space(10);
 
-        // Кнопка выбора файла через проводник ОС
         if (GUILayout.Button("Выбрать внешний XML-файл...", GUILayout.Height(30)))
         {
             string initialDirectory = string.IsNullOrEmpty(config.externalFilePath)
@@ -68,26 +65,19 @@ public class XMLDatabaseConfigEditor : Editor
 
         EditorGUILayout.Space(15);
 
-        // --- КНОПКА 1: Update from link -> local file ---
+        #region button save to prj
+
         EditorGUILayout.BeginHorizontal();
         GUI.backgroundColor = new Color(0.6f, 1f, 0.6f);
-        
+
         if (GUILayout.Button("Update from link -> local file\n(SAVE FILE TO UNITY)", GUILayout.Height(40)))
         {
-            if (pendingAction == ConfirmAction.UpdateFromLink)
+            if (pendingAction != ConfirmAction.UpdateFromLink)
             {
-                // // Подтверждено — выполняем действие
-                // config.UpdateFromExternalFile();
-                // ResetConfirmation();
-            }
-            else
-            {
-                // Первый клик — запрашиваем подтверждение
                 TriggerConfirmation(ConfirmAction.UpdateFromLink);
             }
         }
 
-        // Если это действие ждет подтверждения, рисуем рядом кнопку-галочку
         if (pendingAction == ConfirmAction.UpdateFromLink)
         {
             GUI.backgroundColor = Color.green;
@@ -100,28 +90,23 @@ public class XMLDatabaseConfigEditor : Editor
         }
         EditorGUILayout.EndHorizontal();
 
+        #endregion
+
         EditorGUILayout.Space(5);
 
-        // --- КНОПКА 2: Save local file -> link ---
+        #region button save to civ
+
         EditorGUILayout.BeginHorizontal();
         GUI.backgroundColor = new Color(1f, 0.7f, 0.5f);
-        
+
         if (GUILayout.Button("Save local file -> link\n(SAVE FILE TO CIV)", GUILayout.Height(40)))
         {
             if (pendingAction == ConfirmAction.SaveToLink)
             {
-                // // Подтверждено — выполняем действие
-                // config.SaveToExternalFile();
-                // ResetConfirmation();
-            }
-            else
-            {
-                // Первый клик — запрашиваем подтверждение
                 TriggerConfirmation(ConfirmAction.SaveToLink);
             }
         }
 
-        // Если это действие ждет подтверждения, рисуем рядом кнопку-галочку
         if (pendingAction == ConfirmAction.SaveToLink)
         {
             GUI.backgroundColor = new Color(1f, 0.4f, 0.4f);
@@ -133,6 +118,8 @@ public class XMLDatabaseConfigEditor : Editor
             }
         }
         EditorGUILayout.EndHorizontal();
+
+        #endregion
 
         GUI.backgroundColor = Color.white;
     }
