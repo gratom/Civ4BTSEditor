@@ -8,9 +8,8 @@ using UnityEngine;
 [Serializable]
 public class XMLDoc<T>
 {
-    [SerializeField] public TextAsset xmlTextAsset;
-    [SerializeField] private string startWith;
-    [SerializeField] private string cropThis;
+    [SerializeField] public XMLDatabaseConfig xmlTextAsset;
+
     [SerializeField] public T value;
 
     public virtual void Object2XML()
@@ -18,21 +17,7 @@ public class XMLDoc<T>
         if (xmlTextAsset != null)
         {
             string obj = SerializeObject(value);
-            int index = obj.IndexOf(startWith, StringComparison.Ordinal);
-            obj = obj.Substring(index);
-            obj = cropThis + obj;
-
-            string filePath = AssetDatabase.GetAssetPath(xmlTextAsset);
-
-            StreamWriter writer = new StreamWriter(filePath, false, Encoding.UTF8);
-
-            obj = obj.Replace("&amp;", "&");
-
-            writer.WriteLine(obj);
-            writer.Close();
-
-            File.WriteAllText(filePath, obj);
-            AssetDatabase.Refresh();
+            xmlTextAsset.SetText(obj);
             Debug.Log("xml " + xmlTextAsset.name + " saved");
         }
     }
@@ -41,10 +26,7 @@ public class XMLDoc<T>
     {
         if (xmlTextAsset != null)
         {
-            int index = xmlTextAsset.text.IndexOf(startWith, StringComparison.Ordinal);
-            cropThis = xmlTextAsset.text.Substring(0, index);
-            Debug.Log(cropThis);
-            string xmlPart = xmlTextAsset.text.Substring(index);
+            string xmlPart = xmlTextAsset.GetText();
             value = DeserializeObject<T>(xmlPart);
             Debug.Log("xml " + xmlTextAsset.name + " loaded");
         }
