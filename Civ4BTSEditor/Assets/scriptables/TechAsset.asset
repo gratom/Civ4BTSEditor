@@ -1,0 +1,6229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c91048d981d4f13a0c1e51be94e804d, type: 3}
+  m_Name: TechAsset
+  m_EditorClassIdentifier: 
+  xmlTextAsset: {fileID: 11400000, guid: 545e0628839561f43a2d915f7c57613a, type: 2}
+  value:
+    TechInfos:
+    - Type: TECH_MYSTICISM
+      Description: TXT_KEY_TECH_MYSTICISM
+      Civilopedia: TXT_KEY_TECH_MYSTICISM_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MYSTICISM_STRATEGY
+      Advisor: ADVISOR_RELIGION
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 50
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 1
+      GridY: 11
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 9
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 8
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 2
+      OrPreReqs: []
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_MYSTICISM_QUOTE
+      Sound: AS2D_TECH_MYSTICISM
+      SoundMP: AS2D_TECH_MP_MYSTICISM
+      Button: ',Art/Interface/Buttons/TechTree/Mysticism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,11'
+    - Type: TECH_MEDITATION
+      Description: TXT_KEY_TECH_MEDITATION
+      Civilopedia: TXT_KEY_TECH_MEDITATION_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MEDITATION_STRATEGY
+      Advisor: ADVISOR_RELIGION
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 80
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 2
+      GridY: 9
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 10
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 7
+      OrPreReqs:
+      - TECH_MYSTICISM
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_MEDITATION_QUOTE
+      Sound: AS2D_TECH_MEDITATION
+      SoundMP: AS2D_TECH_MP_MEDITATION
+      Button: ',Art/Interface/Buttons/TechTree/Meditation.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,5'
+    - Type: TECH_POLYTHEISM
+      Description: TXT_KEY_TECH_POLYTHEISM
+      Civilopedia: TXT_KEY_TECH_POLYTHEISM_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_POLYTHEISM_STRATEGY
+      Advisor: ADVISOR_RELIGION
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 100
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 2
+      GridY: 11
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 10
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 9
+      OrPreReqs:
+      - TECH_MYSTICISM
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_POLYTHEISM_QUOTE
+      Sound: AS2D_TECH_POLYTHEISM
+      SoundMP: AS2D_TECH_MP_POLYTHEISM
+      Button: ',Art/Interface/Buttons/TechTree/Polytheism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,6'
+    - Type: TECH_PRIESTHOOD
+      Description: TXT_KEY_TECH_PRIESTHOOD
+      Civilopedia: TXT_KEY_TECH_PRIESTHOOD_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_PRIESTHOOD_STRATEGY
+      Advisor: ADVISOR_RELIGION
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 60
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 3
+      GridY: 9
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 10
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 6
+      OrPreReqs:
+      - TECH_MEDITATION
+      - TECH_POLYTHEISM
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_PRIESTHOOD_QUOTE
+      Sound: AS2D_TECH_PRIESTHOOD
+      SoundMP: AS2D_TECH_MP_PRIESTHOOD
+      Button: ',Art/Interface/Buttons/TechTree/Priesthood.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,11'
+    - Type: TECH_MONOTHEISM
+      Description: TXT_KEY_TECH_MONOTHEISM
+      Civilopedia: TXT_KEY_TECH_MONOTHEISM_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MONOTHEISM_STRATEGY
+      Advisor: ADVISOR_RELIGION
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 120
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 3
+      GridY: 11
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 10
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 1
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 8
+      OrPreReqs:
+      - TECH_POLYTHEISM
+      AndPreReqs:
+      - TECH_MASONRY
+      Quote: TXT_KEY_TECH_MONOTHEISM_QUOTE
+      Sound: AS2D_TECH_MONOTHEISM
+      SoundMP: AS2D_TECH_MP_MONOTHEISM
+      Button: ',Art/Interface/Buttons/TechTree/Monotheism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,11'
+    - Type: TECH_MONARCHY
+      Description: TXT_KEY_TECH_MONARCHY
+      Civilopedia: TXT_KEY_TECH_MONARCHY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MONARCHY_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 300
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 16
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 5
+      GridY: 10
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 3
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 4
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 9
+      OrPreReqs:
+      - TECH_PRIESTHOOD
+      - TECH_MONOTHEISM
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_MONARCHY_QUOTE
+      Sound: AS2D_TECH_MONARCHY
+      SoundMP: AS2D_TECH_MP_MONARCHY
+      Button: ',Art/Interface/Buttons/TechTree/Monarchy.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,11'
+    - Type: TECH_LITERATURE
+      Description: TXT_KEY_TECH_LITERATURE
+      Civilopedia: TXT_KEY_TECH_LITERATURE_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_LITERATURE_STRATEGY
+      Advisor: ADVISOR_CULTURE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 200
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 16
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 6
+      GridY: 1
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 3
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 4
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 10
+      OrPreReqs:
+      - TECH_AESTHETICS
+      AndPreReqs:
+      - TECH_POLYTHEISM
+      Quote: TXT_KEY_TECH_LITERATURE_QUOTE
+      Sound: AS2D_TECH_LITERATURE
+      SoundMP: AS2D_TECH_MP_LITERATURE
+      Button: ',Art/Interface/Buttons/TechTree/Literature.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,10'
+    - Type: TECH_CODE_OF_LAWS
+      Description: TXT_KEY_TECH_CODE_OF_LAWS
+      Civilopedia: TXT_KEY_TECH_CODE_OF_LAWS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_CODE_OF_LAWS_STRATEGY
+      Advisor: ADVISOR_RELIGION
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 350
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 16
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 7
+      GridY: 8
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 2
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 7
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      - FlavorType: FLAVOR_GOLD
+        flavor: 5
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 4
+      OrPreReqs:
+      - TECH_PRIESTHOOD
+      - TECH_CURRENCY
+      AndPreReqs:
+      - TECH_WRITING
+      Quote: TXT_KEY_TECH_CODE_OF_LAWS_QUOTE
+      Sound: AS2D_TECH_CODE_OF_LAWS
+      SoundMP: AS2D_TECH_MP_CODE_OF_LAWS
+      Button: ',Art/Interface/Buttons/TechTree/Code of Laws.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,2'
+    - Type: TECH_DRAMA
+      Description: TXT_KEY_TECH_DRAMA
+      Civilopedia: TXT_KEY_TECH_DRAMA_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_DRAMA_STRATEGY
+      Advisor: ADVISOR_CULTURE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 300
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 16
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 7
+      GridY: 2
+      DomainExtraMoves: []
+      CommerceFlexible: 000000000000000001000000
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 10
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 4
+      OrPreReqs:
+      - TECH_AESTHETICS
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_DRAMA_QUOTE
+      Sound: AS2D_TECH_DRAMA
+      SoundMP: AS2D_TECH_MP_DRAMA
+      Button: ',Art/Interface/Buttons/TechTree/Drama.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,3'
+    - Type: TECH_FEUDALISM
+      Description: TXT_KEY_TECH_FEUDALISM
+      Civilopedia: TXT_KEY_TECH_FEUDALISM_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_FEUDALISM_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 700
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MEDIEVAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 24
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 1
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 7
+      GridY: 10
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 5
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 6
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 2
+      OrPreReqs:
+      - TECH_MONARCHY
+      AndPreReqs:
+      - TECH_WRITING
+      Quote: TXT_KEY_TECH_FEUDALISM_QUOTE
+      Sound: AS2D_TECH_FEUDALISM
+      SoundMP: AS2D_TECH_MP_FEUDALISM
+      Button: ',Art/Interface/Buttons/TechTree/Feudalism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,10'
+    - Type: TECH_THEOLOGY
+      Description: TXT_KEY_TECH_THEOLOGY
+      Civilopedia: TXT_KEY_TECH_THEOLOGY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_THEOLOGY_STRATEGY
+      Advisor: ADVISOR_RELIGION
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MEDIEVAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 24
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 8
+      GridY: 11
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 10
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 6
+      OrPreReqs:
+      - TECH_MONOTHEISM
+      AndPreReqs:
+      - TECH_WRITING
+      Quote: TXT_KEY_TECH_THEOLOGY_QUOTE
+      Sound: AS2D_TECH_THEOLOGY
+      SoundMP: AS2D_TECH_MP_THEOLOGY
+      Button: ',Art/Interface/Buttons/TechTree/Theology.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,12'
+    - Type: TECH_MUSIC
+      Description: TXT_KEY_TECH_MUSIC
+      Civilopedia: TXT_KEY_TECH_MUSIC_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MUSIC_STRATEGY
+      Advisor: ADVISOR_CULTURE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 600
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MEDIEVAL
+      FirstFreeUnitClass: UNITCLASS_ARTIST
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 24
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 8
+      GridY: 1
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 1
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 3
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 10
+      OrPreReqs:
+      - TECH_LITERATURE
+      - TECH_DRAMA
+      AndPreReqs:
+      - TECH_MATHEMATICS
+      Quote: TXT_KEY_TECH_MUSIC_QUOTE
+      Sound: AS2D_TECH_MUSIC
+      SoundMP: AS2D_TECH_MP_MUSIC
+      Button: ',Art/Interface/Buttons/TechTree/Music.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,11'
+    - Type: TECH_CIVIL_SERVICE
+      Description: TXT_KEY_TECH_CIVIL_SERVICE
+      Civilopedia: TXT_KEY_TECH_CIVIL_SERVICE_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_CIVIL_SERVICE_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 800
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MEDIEVAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 24
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 1
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 8
+      GridY: 8
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 3
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 6
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 1
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 4
+      OrPreReqs:
+      - TECH_CODE_OF_LAWS
+      - TECH_FEUDALISM
+      AndPreReqs:
+      - TECH_MATHEMATICS
+      Quote: TXT_KEY_TECH_CIVIL_SERVICE_QUOTE
+      Sound: AS2D_TECH_CIVIL_SERVICE
+      SoundMP: AS2D_TECH_MP_CIVIL_SERVICE
+      Button: ',Art/Interface/Buttons/TechTree/Civil Service.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,2'
+    - Type: TECH_GUILDS
+      Description: TXT_KEY_TECH_GUILDS
+      Civilopedia: TXT_KEY_TECH_GUILDS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_GUILDS_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 1000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MEDIEVAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 24
+      Power: 8
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 9
+      GridY: 12
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 2
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 5
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 1
+      OrPreReqs:
+      - TECH_MACHINERY
+      AndPreReqs:
+      - TECH_FEUDALISM
+      Quote: TXT_KEY_TECH_GUILDS_QUOTE
+      Sound: AS2D_TECH_GUILDS
+      SoundMP: AS2D_TECH_MP_GUILDS
+      Button: ',Art/Interface/Buttons/TechTree/Guilds.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,4'
+    - Type: TECH_DIVINE_RIGHT
+      Description: TXT_KEY_TECH_DIVINE_RIGHT
+      Civilopedia: TXT_KEY_TECH_DIVINE_RIGHT_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_DIVINE_RIGHT_STRATEGY
+      Advisor: ADVISOR_RELIGION
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 1200
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MEDIEVAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 24
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 9
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 10
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 1
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 8
+      OrPreReqs: []
+      AndPreReqs:
+      - TECH_THEOLOGY
+      - TECH_MONARCHY
+      Quote: TXT_KEY_TECH_DIVINE_RIGHT_QUOTE
+      Sound: AS2D_TECH_DIVINE_RIGHT
+      SoundMP: AS2D_TECH_MP_DIVINE_RIGHT
+      Button: ',Art/Interface/Buttons/TechTree/Divine Right.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,3'
+    - Type: TECH_NATIONALISM
+      Description: TXT_KEY_TECH_NATIONALISM
+      Civilopedia: TXT_KEY_TECH_NATIONALISM_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_NATIONALISM_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 1800
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 10
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 3
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 6
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 3
+      OrPreReqs:
+      - TECH_DIVINE_RIGHT
+      - TECH_PHILOSOPHY
+      AndPreReqs:
+      - TECH_CIVIL_SERVICE
+      Quote: TXT_KEY_TECH_NATIONALISM_QUOTE
+      Sound: AS2D_TECH_NATIONALISM
+      SoundMP: AS2D_TECH_MP_NATIONALISM
+      Button: ',Art/Interface/Buttons/TechTree/Nationalism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,6'
+    - Type: TECH_MILITARY_TRADITION
+      Description: TXT_KEY_TECH_MILITARY_TRADITION
+      Civilopedia: TXT_KEY_TECH_MILITARY_TRADITION_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MILITARY_TRADITION_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 2000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 1
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 11
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 10
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 3
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 1
+      OrPreReqs:
+      - TECH_NATIONALISM
+      AndPreReqs:
+      - TECH_MUSIC
+      Quote: TXT_KEY_TECH_MILITARY_TRADITION_QUOTE
+      Sound: AS2D_TECH_MILITARY_TRADITION
+      SoundMP: AS2D_TECH_MP_MILITARY_TRADITION
+      Button: ',Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,1,16'
+    - Type: TECH_CONSTITUTION
+      Description: TXT_KEY_TECH_CONSTITUTION
+      Civilopedia: TXT_KEY_TECH_CONSTITUTION_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_CONSTITUTION_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 2000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 11
+      GridY: 1
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      - FlavorType: FLAVOR_GOLD
+        flavor: 4
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 2
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 2
+      OrPreReqs:
+      - TECH_NATIONALISM
+      AndPreReqs:
+      - TECH_CODE_OF_LAWS
+      Quote: TXT_KEY_TECH_CONSTITUTION_QUOTE
+      Sound: AS2D_TECH_CONSTITUTION
+      SoundMP: AS2D_TECH_MP_CONSTITUTION
+      Button: ',Art/Interface/Buttons/TechTree/Constitution.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,2'
+    - Type: TECH_LIBERALISM
+      Description: TXT_KEY_TECH_LIBERALISM
+      Civilopedia: TXT_KEY_TECH_LIBERALISM_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_LIBERALISM_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 1400
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 1
+      Asset: 32
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 11
+      GridY: 8
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 4
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 5
+      OrPreReqs:
+      - TECH_EDUCATION
+      AndPreReqs:
+      - TECH_PHILOSOPHY
+      Quote: TXT_KEY_TECH_LIBERALISM_QUOTE
+      Sound: AS2D_TECH_LIBERALISM
+      SoundMP: AS2D_TECH_MP_LIBERALISM
+      Button: ',Art/Interface/Buttons/TechTree/Liberalism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,10'
+    - Type: TECH_DEMOCRACY
+      Description: TXT_KEY_TECH_DEMOCRACY
+      Civilopedia: TXT_KEY_TECH_DEMOCRACY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_DEMOCRACY_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 2800
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 12
+      GridY: 1
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 4
+      OrPreReqs:
+      - TECH_CONSTITUTION
+      AndPreReqs:
+      - TECH_PRINTING_PRESS
+      Quote: TXT_KEY_TECH_DEMOCRACY_QUOTE
+      Sound: AS2D_TECH_DEMOCRACY
+      SoundMP: AS2D_TECH_MP_DEMOCRACY
+      Button: ',Art/Interface/Buttons/TechTree/Democracy.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,9'
+    - Type: TECH_CORPORATION
+      Description: TXT_KEY_TECH_CORPORATION
+      Civilopedia: TXT_KEY_TECH_CORPORATION_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_CORPORATION_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 1600
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 1
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 12
+      GridY: 10
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 3
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 4
+      - FlavorType: FLAVOR_GOLD
+        flavor: 8
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      OrPreReqs:
+      - TECH_ECONOMICS
+      AndPreReqs:
+      - TECH_CONSTITUTION
+      Quote: TXT_KEY_TECH_CORPORATION_QUOTE
+      Sound: AS2D_TECH_CORPORATION
+      SoundMP: AS2D_TECH_MP_CORPORATION
+      Button: ',Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,9'
+    - Type: TECH_FASCISM
+      Description: TXT_KEY_TECH_FASCISM
+      Civilopedia: TXT_KEY_TECH_FASCISM_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_FASCISM_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 2400
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: UNITCLASS_GREAT_GENERAL
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 1
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 15
+      GridY: 6
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 4
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 6
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 1
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 2
+      OrPreReqs:
+      - TECH_ASSEMBLY_LINE
+      AndPreReqs:
+      - TECH_NATIONALISM
+      Quote: TXT_KEY_TECH_FASCISM_QUOTE
+      Sound: AS2D_TECH_FASCISM
+      SoundMP: AS2D_TECH_MP_FASCISM
+      Button: ',Art/Interface/Buttons/TechTree/Fascism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,3'
+    - Type: TECH_UTOPIA
+      Description: TXT_KEY_TECH_UTOPIA
+      Civilopedia: TXT_KEY_TECH_UTOPIA_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_UTOPIA_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 2800
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: UNITCLASS_GREAT_SPY
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 1
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 14
+      GridY: 7
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 3
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 1
+      OrPreReqs:
+      - TECH_SCIENTIFIC_METHOD
+      AndPreReqs:
+      - TECH_LIBERALISM
+      Quote: TXT_KEY_TECH_UTOPIA_QUOTE
+      Sound: AS2D_TECH_UTOPIA
+      SoundMP: AS2D_TECH_MP_UTOPIA
+      Button: ',Art/Interface/Buttons/TechTree/Communism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,2'
+    - Type: TECH_MASS_MEDIA
+      Description: TXT_KEY_TECH_MASS_MEDIA
+      Civilopedia: TXT_KEY_TECH_MASS_MEDIA_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MASS_MEDIA_STRATEGY
+      Advisor: ADVISOR_CULTURE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 3600
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 17
+      GridY: 9
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 1
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 9
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 1
+      OrPreReqs:
+      - TECH_RADIO
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_MASS_MEDIA_QUOTE
+      Sound: AS2D_TECH_MASS_MEDIA
+      SoundMP: AS2D_TECH_MP_MASS_MEDIA
+      Button: ',Art/Interface/Buttons/TechTree/MassMedia.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,5'
+    - Type: TECH_ECOLOGY
+      Description: TXT_KEY_TECH_ECOLOGY
+      Civilopedia: TXT_KEY_TECH_ECOLOGY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ECOLOGY_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 5500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 18
+      GridY: 7
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 5
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 1
+      OrPreReqs:
+      - TECH_PLASTICS
+      - TECH_FISSION
+      AndPreReqs:
+      - TECH_BIOLOGY
+      Quote: TXT_KEY_TECH_ECOLOGY_QUOTE
+      Sound: AS2D_TECH_ECOLOGY
+      SoundMP: AS2D_TECH_MP_ECOLOGY
+      Button: ',Art/Interface/Buttons/TechTree/Ecology.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,3'
+    - Type: TECH_FISHING
+      Description: TXT_KEY_TECH_FISHING
+      Civilopedia: TXT_KEY_TECH_FISHING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_FISHING_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 40
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 1
+      GridX: 1
+      GridY: 1
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 3
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 2
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 8
+      OrPreReqs: []
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_FISHING_QUOTE
+      Sound: AS2D_TECH_FISHING
+      SoundMP: AS2D_TECH_MP_FISHING
+      Button: ',Art/Interface/Buttons/TechTree/Fishing.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,10'
+    - Type: TECH_THE_WHEEL
+      Description: TXT_KEY_TECH_THE_WHEEL
+      Civilopedia: TXT_KEY_TECH_THE_WHEEL_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_THE_WHEEL_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 60
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 4
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 1
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 2
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 6
+      - FlavorType: FLAVOR_GOLD
+        flavor: 4
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 8
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 3
+      OrPreReqs: []
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_THE_WHEEL_QUOTE
+      Sound: AS2D_TECH_THE_WHEEL
+      SoundMP: AS2D_TECH_MP_THE_WHEEL
+      Button: ',Art/Interface/Buttons/TechTree/The Wheel.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,12'
+    - Type: TECH_AGRICULTURE
+      Description: TXT_KEY_TECH_AGRICULTURE
+      Civilopedia: TXT_KEY_TECH_AGRICULTURE_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_AGRICULTURE_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 60
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 1
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 4
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 10
+      OrPreReqs: []
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_AGRICULTURE_QUOTE
+      Sound: AS2D_TECH_AGRICULTURE
+      SoundMP: AS2D_TECH_MP_AGRICULTURE
+      Button: ',Art/Interface/Buttons/TechTree/Agriculture.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,1'
+    - Type: TECH_POTTERY
+      Description: TXT_KEY_TECH_POTTERY
+      Civilopedia: TXT_KEY_TECH_POTTERY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_POTTERY_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 80
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 2
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_GOLD
+        flavor: 3
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 5
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 9
+      OrPreReqs:
+      - TECH_AGRICULTURE
+      - TECH_FISHING
+      AndPreReqs:
+      - TECH_THE_WHEEL
+      Quote: TXT_KEY_TECH_POTTERY_QUOTE
+      Sound: AS2D_TECH_POTTERY
+      SoundMP: AS2D_TECH_MP_POTTERY
+      Button: ',Art/Interface/Buttons/TechTree/Pottery.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,6'
+    - Type: TECH_AESTHETICS
+      Description: TXT_KEY_TECH_AESTHETICS
+      Civilopedia: TXT_KEY_TECH_AESTHETICS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_AESTHETICS_STRATEGY
+      Advisor: ADVISOR_CULTURE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 300
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 10
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 5
+      GridY: 2
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 6
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 8
+      OrPreReqs:
+      - TECH_WRITING
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_AESTHETICS_QUOTE
+      Sound: AS2D_TECH_AESTHETICS
+      SoundMP: SND_TECH_MP_AESTHETICS
+      Button: ',Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,2,16'
+    - Type: TECH_SAILING
+      Description: TXT_KEY_TECH_SAILING
+      Civilopedia: TXT_KEY_TECH_SAILING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_SAILING_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 100
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 2
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 2
+      GridY: 1
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades:
+      - TerrainType: TERRAIN_COAST
+        BTerrainTrade: 1
+      RiverTrade: 1
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 1
+      - FlavorType: FLAVOR_GOLD
+        flavor: 3
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 6
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 2
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 4
+      OrPreReqs:
+      - TECH_FISHING
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_SAILING_QUOTE
+      Sound: AS2D_TECH_SAILING
+      SoundMP: AS2D_TECH_MP_SAILING
+      Button: ',Art/Interface/Buttons/TechTree/Sailing.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,7'
+    - Type: TECH_WRITING
+      Description: TXT_KEY_TECH_WRITING
+      Civilopedia: TXT_KEY_TECH_WRITING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_WRITING_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 120
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 1
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 4
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 3
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 10
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 6
+      OrPreReqs:
+      - TECH_PRIESTHOOD
+      - TECH_ANIMAL_HUSBANDRY
+      - TECH_POTTERY
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_WRITING_QUOTE
+      Sound: AS2D_TECH_WRITING
+      SoundMP: AS2D_TECH_MP_WRITING
+      Button: ',Art/Interface/Buttons/TechTree/Writing.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,12'
+    - Type: TECH_MATHEMATICS
+      Description: TXT_KEY_TECH_MATHEMATICS
+      Civilopedia: TXT_KEY_TECH_MATHEMATICS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MATHEMATICS_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 250
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 50
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 16
+      Power: 6
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 5
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 1
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 1
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 10
+      OrPreReqs:
+      - TECH_WRITING
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_MATHEMATICS_QUOTE
+      Sound: AS2D_TECH_MATHEMATICS
+      SoundMP: AS2D_TECH_MP_MATHEMATICS
+      Button: ',Art/Interface/Buttons/TechTree/Mathematics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,5'
+    - Type: TECH_ALPHABET
+      Description: TXT_KEY_TECH_ALPHABET
+      Civilopedia: TXT_KEY_TECH_ALPHABET_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ALPHABET_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 300
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 16
+      Power: 4
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 1
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 5
+      GridY: 7
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 8
+      - FlavorType: FLAVOR_GOLD
+        flavor: 4
+      OrPreReqs:
+      - TECH_WRITING
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_ALPHABET_QUOTE
+      Sound: AS2D_TECH_ALPHABET
+      SoundMP: AS2D_TECH_MP_ALPHABET
+      Button: ',Art/Interface/Buttons/TechTree/Alphabet.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,1'
+    - Type: TECH_CALENDAR
+      Description: TXT_KEY_TECH_CALENDAR
+      Civilopedia: TXT_KEY_TECH_CALENDAR_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_CALENDAR_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 350
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 16
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 1
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 6
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 1
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 6
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 1
+      OrPreReqs:
+      - TECH_MATHEMATICS
+      AndPreReqs:
+      - TECH_SAILING
+      Quote: TXT_KEY_TECH_CALENDAR_QUOTE
+      Sound: AS2D_TECH_CALENDAR
+      SoundMP: AS2D_TECH_MP_CALENDAR
+      Button: ',Art/Interface/Buttons/TechTree/Calendar.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,9'
+    - Type: TECH_CURRENCY
+      Description: TXT_KEY_TECH_CURRENCY
+      Civilopedia: TXT_KEY_TECH_CURRENCY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_CURRENCY_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 400
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 1
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 16
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 1
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 6
+      GridY: 7
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_GOLD
+        flavor: 10
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 3
+      OrPreReqs:
+      - TECH_MATHEMATICS
+      - TECH_ALPHABET
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_CURRENCY_QUOTE
+      Sound: AS2D_TECH_CURRENCY
+      SoundMP: AS2D_TECH_MP_CURRENCY
+      Button: ',Art/Interface/Buttons/TechTree/Currency.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,9'
+    - Type: TECH_PHILOSOPHY
+      Description: TXT_KEY_TECH_PHILOSOPHY
+      Civilopedia: TXT_KEY_TECH_PHILOSOPHY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_PHILOSOPHY_STRATEGY
+      Advisor: ADVISOR_RELIGION
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 800
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MEDIEVAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 24
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 8
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 3
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 8
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 6
+      OrPreReqs:
+      - TECH_CODE_OF_LAWS
+      - TECH_DRAMA
+      AndPreReqs:
+      - TECH_MEDITATION
+      Quote: TXT_KEY_TECH_PHILOSOPHY_QUOTE
+      Sound: AS2D_TECH_PHILOSOPHY
+      SoundMP: AS2D_TECH_MP_PHILOSOPHY
+      Button: ',Art/Interface/Buttons/TechTree/Philosophy.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,6'
+    - Type: TECH_PAPER
+      Description: TXT_KEY_TECH_PAPER
+      Civilopedia: TXT_KEY_TECH_PAPER_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_PAPER_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 600
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MEDIEVAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 24
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 1
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 9
+      GridY: 8
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 2
+      - FlavorType: FLAVOR_GOLD
+        flavor: 3
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 7
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 2
+      OrPreReqs:
+      - TECH_THEOLOGY
+      - TECH_CIVIL_SERVICE
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_PAPER_QUOTE
+      Sound: AS2D_TECH_PAPER
+      SoundMP: AS2D_TECH_MP_PAPER
+      Button: ',Art/Interface/Buttons/TechTree/Paper.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,6'
+    - Type: TECH_BANKING
+      Description: TXT_KEY_TECH_BANKING
+      Civilopedia: TXT_KEY_TECH_BANKING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_BANKING_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 700
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MEDIEVAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 24
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 10
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_GOLD
+        flavor: 10
+      OrPreReqs:
+      - TECH_GUILDS
+      AndPreReqs:
+      - TECH_CURRENCY
+      Quote: TXT_KEY_TECH_BANKING_QUOTE
+      Sound: AS2D_TECH_BANKING
+      SoundMP: AS2D_TECH_MP_BANKING
+      Button: ',Art/Interface/Buttons/TechTree/Banking.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,1'
+    - Type: TECH_EDUCATION
+      Description: TXT_KEY_TECH_EDUCATION
+      Civilopedia: TXT_KEY_TECH_EDUCATION_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_EDUCATION_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 1800
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 10
+      GridY: 10
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 9
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 4
+      OrPreReqs:
+      - TECH_PAPER
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_EDUCATION_QUOTE
+      Sound: AS2D_TECH_EDUCATION
+      SoundMP: AS2D_TECH_MP_EDUCATION
+      Button: ',Art/Interface/Buttons/TechTree/Education.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,3'
+    - Type: TECH_PRINTING_PRESS
+      Description: TXT_KEY_TECH_PRINTING_PRESS
+      Civilopedia: TXT_KEY_TECH_PRINTING_PRESS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_PRINTING_PRESS_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 1600
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 10
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 3
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 9
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 6
+      OrPreReqs:
+      - TECH_PAPER
+      AndPreReqs:
+      - TECH_MACHINERY
+      - TECH_ALPHABET
+      Quote: TXT_KEY_TECH_PRINTING_PRESS_QUOTE
+      Sound: AS2D_TECH_PRINTPRESS
+      SoundMP: AS2D_TECH_MP_PRINTPRESS
+      Button: ',Art/Interface/Buttons/TechTree/Printing Press.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,11'
+    - Type: TECH_ECONOMICS
+      Description: TXT_KEY_TECH_ECONOMICS
+      Civilopedia: TXT_KEY_TECH_ECONOMICS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ECONOMICS_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 1400
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: UNITCLASS_MERCHANT
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 11
+      GridY: 10
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      - FlavorType: FLAVOR_GOLD
+        flavor: 10
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 3
+      OrPreReqs:
+      - TECH_EDUCATION
+      AndPreReqs:
+      - TECH_BANKING
+      Quote: TXT_KEY_TECH_ECONOMICS_QUOTE
+      Sound: AS2D_TECH_ECONOMICS
+      SoundMP: AS2D_TECH_MP_ECONOMICS
+      Button: ',Art/Interface/Buttons/TechTree/Economics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,3'
+    - Type: TECH_ASTRONOMY
+      Description: TXT_KEY_TECH_ASTRONOMY
+      Civilopedia: TXT_KEY_TECH_ASTRONOMY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ASTRONOMY_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 2000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 4
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 12
+      GridY: 7
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades:
+      - TerrainType: TERRAIN_OCEAN
+        BTerrainTrade: 1
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 7
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 3
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 5
+      OrPreReqs: []
+      AndPreReqs:
+      - TECH_CALENDAR
+      - TECH_OPTICS
+      Quote: TXT_KEY_TECH_ASTRONOMY_QUOTE
+      Sound: AS2D_TECH_ASTRONOMY
+      SoundMP: AS2D_TECH_MP_ASTRONOMY
+      Button: ',Art/Interface/Buttons/TechTree/Astronomy.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,1'
+    - Type: TECH_CHEMISTRY
+      Description: TXT_KEY_TECH_CHEMISTRY
+      Civilopedia: TXT_KEY_TECH_CHEMISTRY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_CHEMISTRY_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 1800
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 6
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 12
+      GridY: 12
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 8
+      OrPreReqs:
+      - TECH_GUNPOWDER
+      AndPreReqs:
+      - TECH_ENGINEERING
+      Quote: TXT_KEY_TECH_CHEMISTRY_QUOTE
+      Sound: AS2D_TECH_CHEMISTRY
+      SoundMP: AS2D_TECH_MP_CHEMISTRY
+      Button: ',Art/Interface/Buttons/TechTree/Chemistry.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,9'
+    - Type: TECH_SCIENTIFIC_METHOD
+      Description: TXT_KEY_TECH_SCIENTIFIC_METHOD
+      Civilopedia: TXT_KEY_TECH_SCIENTIFIC_METHOD_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_SCIENTIFIC_METHOD_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 2400
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 13
+      GridY: 9
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 10
+      OrPreReqs:
+      - TECH_CHEMISTRY
+      - TECH_ASTRONOMY
+      AndPreReqs:
+      - TECH_PRINTING_PRESS
+      Quote: TXT_KEY_TECH_SCIENTIFIC_METHOD_QUOTE
+      Sound: AS2D_TECH_SCIMETHOD
+      SoundMP: AS2D_TECH_MP_SCIMETHOD
+      Button: ',Art/Interface/Buttons/TechTree/Scientific Method.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,7'
+    - Type: TECH_PHYSICS
+      Description: TXT_KEY_TECH_PHYSICS
+      Civilopedia: TXT_KEY_TECH_PHYSICS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_PHYSICS_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 4000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: UNITCLASS_SCIENTIST
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 14
+      GridY: 9
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 1
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 10
+      OrPreReqs:
+      - TECH_SCIENTIFIC_METHOD
+      AndPreReqs:
+      - TECH_ASTRONOMY
+      Quote: TXT_KEY_TECH_PHYSICS_QUOTE
+      Sound: AS2D_TECH_PHYSICS
+      SoundMP: AS2D_TECH_MP_PHYSICS
+      Button: ',Art/Interface/Buttons/TechTree/Physics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,6'
+    - Type: TECH_BIOLOGY
+      Description: TXT_KEY_TECH_BIOLOGY
+      Civilopedia: TXT_KEY_TECH_BIOLOGY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_BIOLOGY_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 3600
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 1
+      WaterWork: 0
+      GridX: 14
+      GridY: 11
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 7
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 2
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 6
+      OrPreReqs:
+      - TECH_SCIENTIFIC_METHOD
+      AndPreReqs:
+      - TECH_CHEMISTRY
+      Quote: TXT_KEY_TECH_BIOLOGY_QUOTE
+      Sound: AS2D_TECH_BIOLOGY
+      SoundMP: AS2D_TECH_MP_BIOLOGY
+      Button: ',Art/Interface/Buttons/TechTree/Biology.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,9'
+    - Type: TECH_MEDICINE
+      Description: TXT_KEY_TECH_MEDICINE
+      Civilopedia: TXT_KEY_TECH_MEDICINE_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MEDICINE_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 4500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 15
+      GridY: 11
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 1
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 6
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 8
+      OrPreReqs:
+      - TECH_BIOLOGY
+      AndPreReqs:
+      - TECH_OPTICS
+      Quote: TXT_KEY_TECH_MEDICINE_QUOTE
+      Sound: AS2D_TECH_MEDICINE
+      SoundMP: AS2D_TECH_MP_MEDICINE
+      Button: ',Art/Interface/Buttons/TechTree/Medicine.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,5'
+    - Type: TECH_ELECTRICITY
+      Description: TXT_KEY_TECH_ELECTRICITY
+      Civilopedia: TXT_KEY_TECH_ELECTRICITY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ELECTRICITY_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 4500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 15
+      GridY: 9
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 1
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 4
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 7
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 2
+      OrPreReqs:
+      - TECH_PHYSICS
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_ELECTRICITY_QUOTE
+      Sound: AS2D_TECH_ELECTRICITY
+      SoundMP: AS2D_TECH_MP_ELECTRICITY
+      Button: ',Art/Interface/Buttons/TechTree/Electricity.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,3'
+    - Type: TECH_COMBUSTION
+      Description: TXT_KEY_TECH_COMBUSTION
+      Civilopedia: TXT_KEY_TECH_COMBUSTION_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_COMBUSTION_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 3600
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 6
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 15
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 9
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 3
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 2
+      OrPreReqs:
+      - TECH_RAILROAD
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_COMBUSTION_QUOTE
+      Sound: AS2D_TECH_COMBUSTION
+      SoundMP: AS2D_TECH_MP_COMBUSTION
+      Button: ',Art/Interface/Buttons/TechTree/Combustion.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,2'
+    - Type: TECH_FISSION
+      Description: TXT_KEY_TECH_FISSION
+      Civilopedia: TXT_KEY_TECH_FISSION_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_FISSION_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 5500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 8
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 16
+      GridY: 7
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 1
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 8
+      OrPreReqs:
+      - TECH_ELECTRICITY
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_FISSION_QUOTE
+      Sound: AS2D_TECH_FISSION
+      SoundMP: AS2D_TECH_MP_FISSION
+      Button: ',Art/Interface/Buttons/TechTree/Fission.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,10'
+    - Type: TECH_FLIGHT
+      Description: TXT_KEY_TECH_FLIGHT
+      Civilopedia: TXT_KEY_TECH_FLIGHT_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_FLIGHT_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 5000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 8
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 15
+      GridY: 1
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 4
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 1
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 7
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 3
+      OrPreReqs: []
+      AndPreReqs:
+      - TECH_PHYSICS
+      - TECH_COMBUSTION
+      Quote: TXT_KEY_TECH_FLIGHT_QUOTE
+      Sound: AS2D_TECH_FLIGHT
+      SoundMP: AS2D_TECH_MP_FLIGHT
+      Button: ',Art/Interface/Buttons/TechTree/Flight.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,10'
+    - Type: TECH_ADVANCED_FLIGHT
+      Description: TXT_KEY_TECH_ADVANCED_FLIGHT
+      Civilopedia: TXT_KEY_TECH_ADVANCED_FLIGHT_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ADVANCED_FLIGHT_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 5000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 10
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 18
+      GridY: 1
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 5
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 5
+      OrPreReqs:
+      - TECH_FLIGHT
+      AndPreReqs:
+      - TECH_SATELLITES
+      Quote: TXT_KEY_TECH_ADVANCED_FLIGHT_QUOTE
+      Sound: AS2D_TECH_ADVANCED_FLIGHT
+      SoundMP: AS2D_TECH_MP_ADVANCED_FLIGHT
+      Button: ',Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,3,16'
+    - Type: TECH_PLASTICS
+      Description: TXT_KEY_TECH_PLASTICS
+      Civilopedia: TXT_KEY_TECH_PLASTICS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_PLASTICS_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 7000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 17
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 2
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 6
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 3
+      OrPreReqs:
+      - TECH_INDUSTRIALISM
+      AndPreReqs:
+      - TECH_COMBUSTION
+      Quote: TXT_KEY_TECH_PLASTICS_QUOTE
+      Sound: AS2D_TECH_PLASTICS
+      SoundMP: AS2D_TECH_MP_PLASTICS
+      Button: ',Art/Interface/Buttons/TechTree/Plastics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,6'
+    - Type: TECH_COMPOSITES
+      Description: TXT_KEY_TECH_COMPOSITES
+      Civilopedia: TXT_KEY_TECH_COMPOSITES_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_COMPOSITES_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 7500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 5
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 18
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 8
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 3
+      OrPreReqs:
+      - TECH_PLASTICS
+      AndPreReqs:
+      - TECH_SATELLITES
+      Quote: TXT_KEY_TECH_COMPOSITES_QUOTE
+      Sound: AS2D_TECH_COMPOSITES
+      SoundMP: AS2D_TECH_MP_COMPOSITES
+      Button: ',Art/Interface/Buttons/TechTree/Composites.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,2'
+    - Type: TECH_STEALTH
+      Description: TXT_KEY_TECH_STEALTH
+      Civilopedia: TXT_KEY_TECH_STEALTH_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_STEALTH_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 8000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 5
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 19
+      GridY: 1
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 8
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 3
+      OrPreReqs:
+      - TECH_ADVANCED_FLIGHT
+      AndPreReqs:
+      - TECH_COMPOSITES
+      Quote: TXT_KEY_TECH_STEALTH_QUOTE
+      Sound: AS2D_TECH_STEALTH
+      SoundMP: AS2D_TECH_MP_STEALTH
+      Button: ',Art/Interface/Buttons/Units/StealthBomber.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,10'
+    - Type: TECH_GENETICS
+      Description: TXT_KEY_TECH_GENETICS
+      Civilopedia: TXT_KEY_TECH_GENETICS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_GENETICS_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 7000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 3
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 19
+      GridY: 13
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 7
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 10
+      OrPreReqs:
+      - TECH_SUPERCONDUCTORS
+      AndPreReqs:
+      - TECH_MEDICINE
+      Quote: TXT_KEY_TECH_GENETICS_QUOTE
+      Sound: AS2D_TECH_GENETICS
+      SoundMP: AS2D_TECH_MP_GENETICS
+      Button: ',Art/Interface/Buttons/TechTree/Genetics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,4'
+    - Type: TECH_FIBER_OPTICS
+      Description: TXT_KEY_TECH_FIBER_OPTICS
+      Civilopedia: TXT_KEY_TECH_FIBER_OPTICS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_FIBER_OPTICS_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 7500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 19
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 9
+      OrPreReqs:
+      - TECH_COMPUTERS
+      - TECH_LASER
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_FIBER_OPTICS_QUOTE
+      Sound: AS2D_TECH_FIBER_OPTICS
+      SoundMP: AS2D_TECH_MP_FIBER_OPTICS
+      Button: ',Art/Interface/Buttons/TechTree/FiberOptics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,8'
+    - Type: TECH_FUSION
+      Description: TXT_KEY_TECH_FUSION
+      Civilopedia: TXT_KEY_TECH_FUSION_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_FUSION_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 8000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: UNITCLASS_ENGINEER
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 20
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 8
+      OrPreReqs:
+      - TECH_FIBER_OPTICS
+      AndPreReqs:
+      - TECH_FISSION
+      Quote: TXT_KEY_TECH_FUSION_QUOTE
+      Sound: AS2D_TECH_FUSION
+      SoundMP: AS2D_TECH_MP_FUSION
+      Button: ',Art/Interface/Buttons/TechTree/Fusion.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,4'
+    - Type: TECH_HUNTING
+      Description: TXT_KEY_TECH_HUNTING
+      Civilopedia: TXT_KEY_TECH_HUNTING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_HUNTING_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 40
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 2
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 1
+      GridY: 7
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 6
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 1
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 7
+      OrPreReqs: []
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_HUNTING_QUOTE
+      Sound: AS2D_TECH_HUNTING
+      SoundMP: AS2D_TECH_MP_HUNTING
+      Button: ',Art/Interface/Buttons/TechTree/Hunting.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,4'
+    - Type: TECH_MINING
+      Description: TXT_KEY_TECH_MINING
+      Civilopedia: TXT_KEY_TECH_MINING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MINING_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 50
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 2
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 1
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 8
+      - FlavorType: FLAVOR_GOLD
+        flavor: 5
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 3
+      OrPreReqs: []
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_MINING_QUOTE
+      Sound: AS2D_TECH_MINING
+      SoundMP: AS2D_TECH_MP_MINING
+      Button: ',Art/Interface/Buttons/TechTree/Mining.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,5'
+    - Type: TECH_ARCHERY
+      Description: TXT_KEY_TECH_ARCHERY
+      Civilopedia: TXT_KEY_TECH_ARCHERY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ARCHERY_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 60
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 6
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 2
+      GridY: 7
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 10
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 2
+      OrPreReqs:
+      - TECH_HUNTING
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_ARCHERY_QUOTE
+      Sound: AS2D_TECH_ARCHERY
+      SoundMP: AS2D_TECH_MP_ARCHERY
+      Button: ',Art/Interface/Buttons/TechTree/Archery.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,1'
+    - Type: TECH_MASONRY
+      Description: TXT_KEY_TECH_MASONRY
+      Civilopedia: TXT_KEY_TECH_MASONRY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MASONRY_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 80
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 2
+      GridY: 13
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 3
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 8
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 6
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 4
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 2
+      OrPreReqs:
+      - TECH_MINING
+      - TECH_MYSTICISM
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_MASONRY_QUOTE
+      Sound: AS2D_TECH_MASONRY
+      SoundMP: AS2D_TECH_MP_MASONRY
+      Button: ',Art/Interface/Buttons/TechTree/Masonry.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,5'
+    - Type: TECH_ANIMAL_HUSBANDRY
+      Description: TXT_KEY_TECH_ANIMAL_HUSBANDRY
+      Civilopedia: TXT_KEY_TECH_ANIMAL_HUSBANDRY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ANIMAL_HUSBANDRY_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 100
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 2
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 2
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 3
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 1
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 4
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 1
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 9
+      OrPreReqs:
+      - TECH_HUNTING
+      - TECH_AGRICULTURE
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_ANIMAL_HUSBANDRY_QUOTE
+      Sound: AS2D_TECH_ANIMALHUSB
+      SoundMP: AS2D_TECH_MP_ANIMALHUSB
+      Button: ',Art/Interface/Buttons/TechTree/Animal Husbandry.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,1'
+    - Type: TECH_BRONZE_WORKING
+      Description: TXT_KEY_TECH_BRONZE_WORKING
+      Civilopedia: TXT_KEY_TECH_BRONZE_WORKING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_BRONZE_WORKING_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 120
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 8
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 3
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 6
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 5
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 4
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 1
+      OrPreReqs:
+      - TECH_MINING
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_BRONZE_WORKING_QUOTE
+      Sound: AS2D_TECH_BRONZEWORK
+      SoundMP: AS2D_TECH_MP_BRONZEWORK
+      Button: ',Art/Interface/Buttons/TechTree/Bronze Working.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,9'
+    - Type: TECH_HORSEBACK_RIDING
+      Description: TXT_KEY_TECH_HORSEBACK_RIDING
+      Civilopedia: TXT_KEY_TECH_HORSEBACK_RIDING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_HORSEBACK_RIDING_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 250
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 10
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 3
+      GridY: 6
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 8
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 1
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 1
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 5
+      OrPreReqs:
+      - TECH_ANIMAL_HUSBANDRY
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_HORSEBACK_RIDING_QUOTE
+      Sound: AS2D_TECH_HORSERIDING
+      SoundMP: AS2D_TECH_MP_HORSERIDING
+      Button: ',Art/Interface/Buttons/TechTree/Horseback Riding.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,4'
+    - Type: TECH_IRON_WORKING
+      Description: TXT_KEY_TECH_IRON_WORKING
+      Civilopedia: TXT_KEY_TECH_IRON_WORKING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_IRON_WORKING_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 200
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 16
+      Power: 10
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 4
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 7
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 8
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 5
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 6
+      OrPreReqs:
+      - TECH_BRONZE_WORKING
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_IRON_WORKING_QUOTE
+      Sound: AS2D_TECH_IRONWORK
+      SoundMP: AS2D_TECH_MP_IRONWORK
+      Button: ',Art/Interface/Buttons/TechTree/Iron Working.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,10'
+    - Type: TECH_METAL_CASTING
+      Description: TXT_KEY_TECH_METAL_CASTING
+      Civilopedia: TXT_KEY_TECH_METAL_CASTING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_METAL_CASTING_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 450
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 16
+      Power: 4
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 4
+      GridY: 12
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 7
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 9
+      - FlavorType: FLAVOR_GOLD
+        flavor: 6
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 5
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 2
+      OrPreReqs:
+      - TECH_BRONZE_WORKING
+      AndPreReqs:
+      - TECH_POTTERY
+      - TECH_IRON_WORKING
+      Quote: TXT_KEY_TECH_METAL_CASTING_QUOTE
+      Sound: AS2D_TECH_METALCAST
+      SoundMP: AS2D_TECH_MP_METALCAST
+      Button: ',Art/Interface/Buttons/TechTree/Metal Casting.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,5'
+    - Type: TECH_COMPASS
+      Description: TXT_KEY_TECH_COMPASS
+      Civilopedia: TXT_KEY_TECH_COMPASS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_COMPASS_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 400
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 16
+      Power: 4
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 5
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 2
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 7
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 4
+      OrPreReqs:
+      - TECH_IRON_WORKING
+      AndPreReqs:
+      - TECH_SAILING
+      Quote: TXT_KEY_TECH_COMPASS_QUOTE
+      Sound: AS2D_TECH_COMPASS
+      SoundMP: AS2D_TECH_MP_COMPASS
+      Button: ',Art/Interface/Buttons/TechTree/Compass.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,2'
+    - Type: TECH_CONSTRUCTION
+      Description: TXT_KEY_TECH_CONSTRUCTION
+      Civilopedia: TXT_KEY_TECH_CONSTRUCTION_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_CONSTRUCTION_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 350
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 16
+      Power: 4
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 1
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 6
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 2
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 1
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 6
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 1
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 2
+      OrPreReqs:
+      - TECH_MATHEMATICS
+      AndPreReqs:
+      - TECH_MASONRY
+      Quote: TXT_KEY_TECH_CONSTRUCTION_QUOTE
+      Sound: AS2D_TECH_CONSTRUCTION
+      SoundMP: AS2D_TECH_MP_CONSTRUCTION
+      Button: ',Art/Interface/Buttons/TechTree/Construction.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,9'
+    - Type: TECH_MACHINERY
+      Description: TXT_KEY_TECH_MACHINERY
+      Civilopedia: TXT_KEY_TECH_MACHINERY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MACHINERY_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 700
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MEDIEVAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 24
+      Power: 8
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 6
+      GridY: 12
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 6
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 10
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 4
+      OrPreReqs:
+      - TECH_METAL_CASTING
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_MACHINERY_QUOTE
+      Sound: AS2D_TECH_MACHINERY
+      SoundMP: AS2D_TECH_MP_MACHINERY
+      Button: ',Art/Interface/Buttons/TechTree/Machinery.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,10'
+    - Type: TECH_ENGINEERING
+      Description: TXT_KEY_TECH_ENGINEERING
+      Civilopedia: TXT_KEY_TECH_ENGINEERING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ENGINEERING_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 1000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MEDIEVAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 24
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 7
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 2
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 8
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 5
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 7
+      OrPreReqs:
+      - TECH_CONSTRUCTION
+      AndPreReqs:
+      - TECH_MACHINERY
+      Quote: TXT_KEY_TECH_ENGINEERING_QUOTE
+      Sound: AS2D_TECH_ENGINEERING
+      SoundMP: AS2D_TECH_MP_ENGINEERING
+      Button: ',Art/Interface/Buttons/TechTree/Engineering.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,3'
+    - Type: TECH_OPTICS
+      Description: TXT_KEY_TECH_OPTICS
+      Civilopedia: TXT_KEY_TECH_OPTICS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_OPTICS_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 600
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MEDIEVAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 24
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 1
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 7
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 3
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 8
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 2
+      OrPreReqs:
+      - TECH_COMPASS
+      AndPreReqs:
+      - TECH_MACHINERY
+      Quote: TXT_KEY_TECH_OPTICS_QUOTE
+      Sound: AS2D_TECH_OPTICS
+      SoundMP: AS2D_TECH_MP_OPTICS
+      Button: ',Art/Interface/Buttons/TechTree/Optics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,6'
+    - Type: TECH_GUNPOWDER
+      Description: TXT_KEY_TECH_GUNPOWDER
+      Civilopedia: TXT_KEY_TECH_GUNPOWDER_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_GUNPOWDER_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 1200
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 12
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 11
+      GridY: 12
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 9
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 4
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 4
+      OrPreReqs:
+      - TECH_GUILDS
+      - TECH_EDUCATION
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_GUNPOWDER_QUOTE
+      Sound: AS2D_TECH_GUNPOWDER
+      SoundMP: AS2D_TECH_MP_GUNPOWDER
+      Button: ',Art/Interface/Buttons/TechTree/Gunpowder.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,4'
+    - Type: TECH_REPLACEABLE_PARTS
+      Description: TXT_KEY_TECH_REPLACEABLE_PARTS
+      Civilopedia: TXT_KEY_TECH_REPLACEABLE_PARTS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_REPLACEABLE_PARTS_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 1800
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 50
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 11
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 5
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 8
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 1
+      OrPreReqs:
+      - TECH_PRINTING_PRESS
+      AndPreReqs:
+      - TECH_BANKING
+      Quote: TXT_KEY_TECH_REPLACEABLE_PARTS_QUOTE
+      Sound: AS2D_TECH_REPLACE_PARTS
+      SoundMP: AS2D_TECH_MP_REPLACE_PARTS
+      Button: ',Art/Interface/Buttons/TechTree/Replaceable Parts.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,7'
+    - Type: TECH_MILITARY_SCIENCE
+      Description: TXT_KEY_TECH_MILITARY_SCIENCE
+      Civilopedia: TXT_KEY_TECH_MILITARY_SCIENCE_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_MILITARY_SCIENCE_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 2000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 12
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 13
+      GridY: 12
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 10
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 3
+      OrPreReqs:
+      - TECH_CHEMISTRY
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_MILITARY_SCIENCE_QUOTE
+      Sound: AS2D_TECH_MILITARY_SCIENCE
+      SoundMP: AS2D_TECH_MP_MILITARY_SCIENCE
+      Button: ',Art/Interface/Buttons/TechTree/Military Tradition.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,5'
+    - Type: TECH_RIFLING
+      Description: TXT_KEY_TECH_RIFLING
+      Civilopedia: TXT_KEY_TECH_RIFLING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_RIFLING_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 2400
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_RENAISSANCE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 32
+      Power: 12
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 12
+      GridY: 4
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 10
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 1
+      OrPreReqs:
+      - TECH_REPLACEABLE_PARTS
+      AndPreReqs:
+      - TECH_GUNPOWDER
+      Quote: TXT_KEY_TECH_RIFLING_QUOTE
+      Sound: AS2D_TECH_RIFLING
+      SoundMP: AS2D_TECH_MP_RIFLING
+      Button: ',Art/Interface/Buttons/TechTree/Rifling.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,7'
+    - Type: TECH_STEAM_POWER
+      Description: TXT_KEY_TECH_STEAM_POWER
+      Civilopedia: TXT_KEY_TECH_STEAM_POWER_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_STEAM_POWER_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 3200
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 50
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 13
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 4
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 8
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 5
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 3
+      OrPreReqs:
+      - TECH_REPLACEABLE_PARTS
+      AndPreReqs:
+      - TECH_CHEMISTRY
+      Quote: TXT_KEY_TECH_STEAM_POWER_QUOTE
+      Sound: AS2D_TECH_STEAMPOWER
+      SoundMP: AS2D_TECH_MP_STEAMPOWER
+      Button: ',Art/Interface/Buttons/TechTree/Steam Power.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,12'
+    - Type: TECH_STEEL
+      Description: TXT_KEY_TECH_STEEL
+      Civilopedia: TXT_KEY_TECH_STEEL_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_STEEL_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 2800
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 4
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 13
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 6
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 8
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 2
+      OrPreReqs:
+      - TECH_CHEMISTRY
+      AndPreReqs:
+      - TECH_IRON_WORKING
+      Quote: TXT_KEY_TECH_STEEL_QUOTE
+      Sound: AS2D_TECH_STEEL
+      SoundMP: AS2D_TECH_MP_STEEL
+      Button: ',Art/Interface/Buttons/TechTree/Steel.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,12'
+    - Type: TECH_ASSEMBLY_LINE
+      Description: TXT_KEY_TECH_ASSEMBLY_LINE
+      Civilopedia: TXT_KEY_TECH_ASSEMBLY_LINE_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ASSEMBLY_LINE_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 5000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 8
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 14
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 3
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 10
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 3
+      OrPreReqs:
+      - TECH_STEAM_POWER
+      AndPreReqs:
+      - TECH_CORPORATION
+      Quote: TXT_KEY_TECH_ASSEMBLY_LINE_QUOTE
+      Sound: AS2D_TECH_ASSEMBLINE
+      SoundMP: AS2D_TECH_MP_ASSEMBLINE
+      Button: ',Art/Interface/Buttons/TechTree/Assembly Line.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,1'
+    - Type: TECH_RAILROAD
+      Description: TXT_KEY_TECH_RAILROAD
+      Civilopedia: TXT_KEY_TECH_RAILROAD_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_RAILROAD_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 4500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 14
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 2
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 7
+      - FlavorType: FLAVOR_GOLD
+        flavor: 3
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 1
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 4
+      OrPreReqs:
+      - TECH_STEEL
+      AndPreReqs:
+      - TECH_STEAM_POWER
+      Quote: TXT_KEY_TECH_RAILROAD_QUOTE
+      Sound: AS2D_TECH_RAILROAD
+      SoundMP: AS2D_TECH_MP_RAILROAD
+      Button: ',Art/Interface/Buttons/TechTree/Railroad.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,11'
+    - Type: TECH_ARTILLERY
+      Description: TXT_KEY_TECH_ARTILLERY
+      Civilopedia: TXT_KEY_TECH_ARTILLERY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ARTILLERY_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 4000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 10
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 15
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 10
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 1
+      OrPreReqs:
+      - TECH_RIFLING
+      AndPreReqs:
+      - TECH_PHYSICS
+      - TECH_STEEL
+      Quote: TXT_KEY_TECH_ARTILLERY_QUOTE
+      Sound: AS2D_TECH_ARTILLERY
+      SoundMP: AS2D_TECH_MP_ARTILLERY
+      Button: ',Art/Interface/Buttons/TechTree/Artillery.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,1'
+    - Type: TECH_INDUSTRIALISM
+      Description: TXT_KEY_TECH_INDUSTRIALISM
+      Civilopedia: TXT_KEY_TECH_INDUSTRIALISM_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_INDUSTRIALISM_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 6500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_INDUSTRIAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 10
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 16
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 2
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 10
+      - FlavorType: FLAVOR_GOLD
+        flavor: 3
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 4
+      OrPreReqs:
+      - TECH_ASSEMBLY_LINE
+      AndPreReqs:
+      - TECH_ELECTRICITY
+      Quote: TXT_KEY_TECH_INDUSTRIALISM_QUOTE
+      Sound: AS2D_TECH_INDUSTRIALISM
+      SoundMP: AS2D_TECH_MP_INDUSTRIALISM
+      Button: ',Art/Interface/Buttons/TechTree/Industrialism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,4'
+    - Type: TECH_RADIO
+      Description: TXT_KEY_TECH_RADIO
+      Civilopedia: TXT_KEY_TECH_RADIO_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_RADIO_STRATEGY
+      Advisor: ADVISOR_CULTURE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 6000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 4
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 16
+      GridY: 9
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 5
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 3
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 9
+      OrPreReqs:
+      - TECH_ELECTRICITY
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_RADIO_QUOTE
+      Sound: AS2D_TECH_RADIO
+      SoundMP: AS2D_TECH_MP_RADIO
+      Button: ',Art/Interface/Buttons/TechTree/Radio.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,11'
+    - Type: TECH_REFRIGERATION
+      Description: TXT_KEY_TECH_REFRIGERATION
+      Civilopedia: TXT_KEY_TECH_REFRIGERATION_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_REFRIGERATION_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 4000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 16
+      GridY: 13
+      DomainExtraMoves:
+      - DomainType: DOMAIN_SEA
+        IExtraMoves: 1
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 4
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 7
+      OrPreReqs:
+      - TECH_ELECTRICITY
+      AndPreReqs:
+      - TECH_BIOLOGY
+      Quote: TXT_KEY_TECH_REFRIGERATION_QUOTE
+      Sound: AS2D_TECH_REFRIGERATION
+      SoundMP: AS2D_TECH_MP_REFRIGERATION
+      Button: ',Art/Interface/Buttons/TechTree/Refrigeration.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,7'
+    - Type: TECH_SUPERCONDUCTORS
+      Description: TXT_KEY_TECH_SUPERCONDUCTORS
+      Civilopedia: TXT_KEY_TECH_SUPERCONDUCTORS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_SUPERCONDUCTORS_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 6500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 18
+      GridY: 13
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 4
+      OrPreReqs:
+      - TECH_REFRIGERATION
+      - TECH_COMPUTERS
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_SUPERCONDUCTOR_QUOTE
+      Sound: AS2D_TECH_SUPERCONDUCTOR
+      SoundMP: AS2D_TECH_MP_SUPERCONDUCTOR
+      Button: ',Art/Interface/Buttons/TechTree/Superconductor.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,12'
+    - Type: TECH_COMPUTERS
+      Description: TXT_KEY_TECH_COMPUTERS
+      Civilopedia: TXT_KEY_TECH_COMPUTERS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_COMPUTERS_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 6500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 17
+      GridY: 11
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 9
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 3
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 5
+      OrPreReqs:
+      - TECH_RADIO
+      AndPreReqs:
+      - TECH_PLASTICS
+      Quote: TXT_KEY_TECH_COMPUTERS_QUOTE
+      Sound: AS2D_TECH_COMPUTERS
+      SoundMP: AS2D_TECH_MP_COMPUTERS
+      Button: ',Art/Interface/Buttons/TechTree/Computers.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,2'
+    - Type: TECH_LASER
+      Description: TXT_KEY_TECH_LASER
+      Civilopedia: TXT_KEY_TECH_LASER_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_LASER_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 7000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 10
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 18
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 9
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 5
+      OrPreReqs:
+      - TECH_SATELLITES
+      AndPreReqs:
+      - TECH_PLASTICS
+      Quote: TXT_KEY_TECH_LASER_QUOTE
+      Sound: AS2D_TECH_LASER
+      SoundMP: AS2D_TECH_MP_LASER
+      Button: ',Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,4,16'
+    - Type: TECH_ROCKETRY
+      Description: TXT_KEY_TECH_ROCKETRY
+      Civilopedia: TXT_KEY_TECH_ROCKETRY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ROCKETRY_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 5000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 10
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 16
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 8
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 4
+      OrPreReqs:
+      - TECH_FLIGHT
+      - TECH_ARTILLERY
+      AndPreReqs:
+      - TECH_RIFLING
+      Quote: TXT_KEY_TECH_ROCKETRY_QUOTE
+      Sound: AS2D_TECH_ROCKETRY
+      SoundMP: AS2D_TECH_MP_ROCKETRY
+      Button: ',Art/Interface/Buttons/TechTree/Rocketry.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,7'
+    - Type: TECH_SATELLITES
+      Description: TXT_KEY_TECH_SATELLITES
+      Civilopedia: TXT_KEY_TECH_SATELLITES_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_SATELLITES_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 6000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 4
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 1
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 17
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 3
+      - FlavorType: FLAVOR_GOLD
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 7
+      OrPreReqs:
+      - TECH_ROCKETRY
+      AndPreReqs:
+      - TECH_RADIO
+      Quote: TXT_KEY_TECH_SATELLITES_QUOTE
+      Sound: AS2D_TECH_SATELLITES
+      SoundMP: AS2D_TECH_MP_SATELLITES
+      Button: ',Art/Interface/Buttons/TechTree/Satellites.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,7'
+    - Type: TECH_ROBOTICS
+      Description: TXT_KEY_TECH_ROBOTICS
+      Civilopedia: TXT_KEY_TECH_ROBOTICS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ROBOTICS_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 8000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 19
+      GridY: 11
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 1
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 8
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 1
+      OrPreReqs:
+      - TECH_COMPUTERS
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_ROBOTICS_QUOTE
+      Sound: AS2D_TECH_ROBOTICS
+      SoundMP: AS2D_TECH_MP_ROBOTICS
+      Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,7'
+    - Type: TECH_FUTURE_TECH
+      Description: TXT_KEY_TECH_FUTURE_TECH
+      Civilopedia: TXT_KEY_TECH_FUTURE_TECH_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_FUTURE_TECH_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 10000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_FUTURE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 1
+      Happiness: 1
+      FirstFreeTechs: 0
+      Asset: 64
+      Power: 0
+      Repeat: 1
+      Trade: 0
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 23
+      GridY: 7
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 1
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 1
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 1
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 1
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 1
+      OrPreReqs:
+      - TECH_CYBERNETICS
+      AndPreReqs:
+      - TECH_COLD_FUSION
+      - TECH_ADVANCED_SHIELDING
+      - TECH_ASTROGATION
+      Quote: TXT_KEY_TECH_FUTURE_TECH_QUOTE
+      Sound: AS2D_TECH_FUTURE
+      SoundMP: AS2D_TECH_MP_FUTURE
+      Button: ',Art/Interface/Buttons/TechTree/Future Tech.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,4'
+    - Type: TECH_ADVANCED_SHIELDING
+      Description: TXT_KEY_TECH_ADVANCED_SHIELDING
+      Civilopedia: TXT_KEY_TECH_ADVANCED_SHIELDING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ADVANCED_SHIELDING_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 9700
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_FUTURE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 50
+      Power: 10
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 22
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 8
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      OrPreReqs:
+      - TECH_SHIELDING
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_ADVANCED_SHIELDING_QUOTE
+      Sound: AS2D_TECH_ADVANCED_SHIELDING
+      SoundMP: Sounds/Tech/AS2D_TECH_MP_ADVANCED_SHIELDING
+      Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,2,4'
+    - Type: TECH_AQUACULTURE
+      Description: TXT_KEY_TECH_AQUACULTURE
+      Civilopedia: TXT_KEY_TECH_AQUACULTURE_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_AQUACULTURE_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 6500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_FUTURE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 19
+      GridY: 7
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 4
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 7
+      OrPreReqs:
+      - TECH_ECOLOGY
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_AQUACULTURE_QUOTE
+      Sound: AS2D_TECH_AQUACULTURE
+      SoundMP: AS2D_TECH_MP_AQUACULTURE
+      Button: ',Art/Interface/Buttons/TechTree/Ecology.dds,Art/Interface/Buttons/NextWar_Atlas.dds,2,3'
+    - Type: TECH_BIOLOGICAL_WARFARE
+      Description: TXT_KEY_TECH_BIOLOGICAL_WARFARE
+      Civilopedia: TXT_KEY_TECH_BIOLOGICAL_WARFARE_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_BIOLOGICAL_WARFARE_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 8750
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_FUTURE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 4
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 20
+      GridY: 12
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 8
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 1
+      OrPreReqs:
+      - TECH_GENETICS
+      AndPreReqs:
+      - TECH_AQUACULTURE
+      Quote: TXT_KEY_TECH_BIOLOGICAL_WARFARE_QUOTE
+      Sound: AS2D_TECH_BIOLOGICAL_WARFARE
+      SoundMP: AS2D_TECH_MP_BIOLOGICAL_WARFARE
+      Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,3,3'
+    - Type: TECH_BIONICS
+      Description: TXT_KEY_TECH_BIONICS
+      Civilopedia: TXT_KEY_TECH_BIONICS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_BIONICS_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 9500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_FUTURE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 40
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 21
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 6
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      OrPreReqs:
+      - TECH_CLONING
+      AndPreReqs:
+      - TECH_ROBOTICS
+      Quote: TXT_KEY_TECH_BIONICS_QUOTE
+      Sound: AS2D_TECH_BIONICS
+      SoundMP: AS2D_TECH_MP_BIONICS
+      Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,4,3'
+    - Type: TECH_CLONING
+      Description: TXT_KEY_TECH_CLONING
+      Civilopedia: TXT_KEY_TECH_CLONING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_CLONING_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 9000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_FUTURE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 6
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 20
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 8
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 1
+      OrPreReqs:
+      - TECH_GENETICS
+      AndPreReqs:
+      - TECH_HYDROPONICS
+      Quote: TXT_KEY_TECH_CLONING_QUOTE
+      Sound: AS2D_TECH_CLONING
+      SoundMP: AS2D_TECH_MP_CLONING
+      Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,5,3'
+    - Type: TECH_COLD_FUSION
+      Description: TXT_KEY_TECH_COLD_FUSION
+      Civilopedia: TXT_KEY_TECH_COLD_FUSION_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_COLD_FUSION_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 9700
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_FUTURE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 50
+      Power: 15
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 21
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 10
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 4
+      OrPreReqs:
+      - TECH_FUSION
+      AndPreReqs:
+      - TECH_BIONICS
+      Quote: TXT_KEY_TECH_COLD_FUSION_QUOTE
+      Sound: AS2D_TECH_COLD_FUSION
+      SoundMP: AS2D_TECH_MP_COLD_FUSION
+      Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,6,3'
+    - Type: TECH_CYBERNETICS
+      Description: TXT_KEY_TECH_CYBERNETICS
+      Civilopedia: TXT_KEY_TECH_CYBERNETICS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_CYBERNETICS_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 9700
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_FUTURE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 50
+      Power: 10
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 22
+      GridY: 13
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 8
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 3
+      OrPreReqs:
+      - TECH_BIONICS
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_CYBERNETICS_QUOTE
+      Sound: AS2D_TECH_CYBERNETICS
+      SoundMP: AS2D_TECH_MP_CYBERNETICS
+      Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,7,3'
+    - Type: TECH_HYDROPONICS
+      Description: TXT_KEY_TECH_HYDROPONICS
+      Civilopedia: TXT_KEY_TECH_HYDROPONICS_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_HYDROPONICS_STRATEGY
+      Advisor: ADVISOR_GROWTH
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 6500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_FUTURE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 19
+      GridY: 9
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 2
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 4
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 7
+      OrPreReqs:
+      - TECH_ECOLOGY
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_HYDROPONICS_QUOTE
+      Sound: AS2D_TECH_HYDROPONICS
+      SoundMP: AS2D_TECH_MP_HYDROPONICS
+      Button: ',Art/Interface/Buttons/TechTree/Ecology.dds,Art/Interface/Buttons/NextWar_Atlas.dds,8,3'
+    - Type: TECH_SHIELDING
+      Description: TXT_KEY_TECH_SHIELDING
+      Civilopedia: TXT_KEY_TECH_SHIELDING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_SHIELDING_STRATEGY
+      Advisor: ADVISOR_MILITARY
+      AILWeight: 0
+      AITradeModifier: 10
+      Cost: 9000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_FUTURE
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 48
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 21
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 8
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 1
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 2
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 1
+      OrPreReqs:
+      - TECH_FUSION
+      AndPreReqs:
+      - TECH_COMPUTERS
+      Quote: TXT_KEY_TECH_SHIELDING_QUOTE
+      Sound: AS2D_TECH_SHIELDING
+      SoundMP: AS2D_TECH_MP_SHIELDING
+      Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,1,3'
+    - Type: TECH_ASTROGATION
+      Description: TXT_KEY_TECH_ASTROGATION
+      Civilopedia: TXT_KEY_TECH_ASTROGATION_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ASTROGATION_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 7500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_FUTURE
+      FirstFreeUnitClass: UNITCLASS_SCIENTIST
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 50
+      Power: 0
+      Repeat: 0
+      Trade: 0
+      Disable: 0
+      GoodyTech: 0
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 21
+      GridY: 12
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 1
+      OrPreReqs:
+      - TECH_BIOLOGICAL_WARFARE
+      AndPreReqs:
+      - TECH_SATELLITES
+      - TECH_COMPOSITES
+      Quote: TXT_KEY_TECH_ASTROGATION_QUOTE
+      Sound: AS2D_TECH_ASTROGATION
+      SoundMP: AS2D_TECH_MP_ASTROGATION
+      Button: Art/Interface/Buttons/TechTree/Astrogation.dds

@@ -15,7 +15,15 @@ MonoBehaviour:
   externalFilePath: G:/steam/steamapps/common/Sid Meier's Civilization IV Beyond
     the Sword/Beyond the Sword/Mods/Utopia/Assets/XML/Technologies/CIV4TechInfos.xml
   internalXmlAsset: {fileID: 4900000, guid: 422d116997625554481c4a0e92bfb655, type: 3}
-  prefixOffsetFromStart: 433
-  postfixOffsetFromEnd: 0
-  xmlPrefix: 
-  xmlPostfix: 
+  prefixOffsetFromStart: 84
+  postfixOffsetFromEnd: 19
+  xmlPrefix: '<?xml version="1.0"?>
+
+    <Civ4TechInfos xmlns="x-schema:CIV4TechnologiesSchema.xml">
+
+'
+  xmlPostfix: '
+
+    </Civ4TechInfos>
+
+'

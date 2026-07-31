@@ -1,17 +1,12 @@
-using System;
 using System.IO;
-using System.Text;
 using System.Xml.Serialization;
-using UnityEditor;
 using UnityEngine;
 
-[Serializable]
-public class XMLDoc<T>
+public class XMLDoc<T> : ScriptableObject
 {
     [SerializeField] public XMLDatabaseConfig xmlTextAsset;
-
     [SerializeField] public T value;
-
+    
     public virtual void Object2XML()
     {
         if (xmlTextAsset != null)

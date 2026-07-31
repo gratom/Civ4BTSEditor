@@ -135,7 +135,7 @@ public class XMLDatabaseConfig : ScriptableObject
         xmlPostfix = fullText.Substring(fullText.Length - safePostfixOffset);
 
         string finalContent = xmlPrefix + innerContent + xmlPostfix;
-
+        finalContent = finalContent.Replace("&amp;", "&");
         string internalAssetPath = AssetDatabase.GetAssetPath(internalXmlAsset);
         string fullInternalPath = Path.GetFullPath(internalAssetPath);
 
