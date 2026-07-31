@@ -135,11 +135,11 @@ public class XMLDatabaseConfig : ScriptableObject
         xmlPostfix = fullText.Substring(fullText.Length - safePostfixOffset);
 
         string finalContent = xmlPrefix + innerContent + xmlPostfix;
-        finalContent = finalContent.Replace("&amp;", "&");
         string internalAssetPath = AssetDatabase.GetAssetPath(internalXmlAsset);
         string fullInternalPath = Path.GetFullPath(internalAssetPath);
 
-        File.WriteAllText(fullInternalPath, finalContent, Encoding.UTF8);
+        //Technically, UTF-8 is expected. But the standard UTF-8 is saved as UTF-8-DOM, and this corrupts the file for reading by Civ.
+        File.WriteAllText(fullInternalPath, finalContent, Encoding.ASCII); 
 
         AssetDatabase.ImportAsset(internalAssetPath);
         EditorUtility.SetDirty(this);

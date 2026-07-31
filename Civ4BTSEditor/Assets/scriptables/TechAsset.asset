@@ -55,7 +55,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 1
-      GridY: 11
+      GridY: 9
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -115,7 +115,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 2
-      GridY: 9
+      GridY: 7
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -174,7 +174,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 2
-      GridY: 11
+      GridY: 9
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -231,7 +231,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 3
-      GridY: 9
+      GridY: 8
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -293,7 +293,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 3
-      GridY: 11
+      GridY: 10
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -353,7 +353,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 5
-      GridY: 10
+      GridY: 9
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -477,7 +477,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 7
-      GridY: 8
+      GridY: 7
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -603,7 +603,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 7
-      GridY: 10
+      GridY: 9
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -663,7 +663,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 8
-      GridY: 11
+      GridY: 10
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -786,7 +786,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 8
-      GridY: 8
+      GridY: 7
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -1594,7 +1594,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 1
       GridX: 1
-      GridY: 1
+      GridY: 14
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -1654,7 +1654,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 1
-      GridY: 3
+      GridY: 1
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -1716,7 +1716,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 1
-      GridY: 5
+      GridY: 3
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -1776,7 +1776,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 2
-      GridY: 3
+      GridY: 1
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -1792,9 +1792,8 @@ MonoBehaviour:
         flavor: 9
       OrPreReqs:
       - TECH_AGRICULTURE
-      - TECH_FISHING
-      AndPreReqs:
       - TECH_THE_WHEEL
+      AndPreReqs: []
       Quote: TXT_KEY_TECH_POTTERY_QUOTE
       Sound: AS2D_TECH_POTTERY
       SoundMP: AS2D_TECH_MP_POTTERY
@@ -1898,7 +1897,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 2
-      GridY: 1
+      GridY: 14
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades:
@@ -3653,7 +3652,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 1
-      GridY: 7
+      GridY: 5
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -3715,7 +3714,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 1
-      GridY: 14
+      GridY: 12
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -3773,7 +3772,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 2
-      GridY: 7
+      GridY: 5
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -3832,7 +3831,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 2
-      GridY: 13
+      GridY: 11
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -3896,7 +3895,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 2
-      GridY: 5
+      GridY: 3
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -3962,7 +3961,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 3
-      GridY: 14
+      GridY: 12
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -4023,7 +4022,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 3
-      GridY: 6
+      GridY: 4
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -4086,7 +4085,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 4
-      GridY: 14
+      GridY: 12
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -4146,7 +4145,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 4
+      GridX: 6
       GridY: 12
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -4164,10 +4163,9 @@ MonoBehaviour:
       - FlavorType: FLAVOR_CULTURE
         flavor: 2
       OrPreReqs:
-      - TECH_BRONZE_WORKING
+      - TECH_IRON_WORKING
       AndPreReqs:
       - TECH_POTTERY
-      - TECH_IRON_WORKING
       Quote: TXT_KEY_TECH_METAL_CASTING_QUOTE
       Sound: AS2D_TECH_METALCAST
       SoundMP: AS2D_TECH_MP_METALCAST
@@ -4228,8 +4226,8 @@ MonoBehaviour:
         flavor: 4
       OrPreReqs:
       - TECH_IRON_WORKING
-      AndPreReqs:
       - TECH_SAILING
+      AndPreReqs: []
       Quote: TXT_KEY_TECH_COMPASS_QUOTE
       Sound: AS2D_TECH_COMPASS
       SoundMP: AS2D_TECH_MP_COMPASS
@@ -4339,7 +4337,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 6
+      GridX: 7
       GridY: 12
       DomainExtraMoves: []
       CommerceFlexible: 

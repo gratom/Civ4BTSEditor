@@ -167,26 +167,26 @@ public class TechInfo
     [XmlElement("Button")]
     public string Button;
 
-    // public void AndPreq(TechObject connectToTech)
-    // {
-    //     if (AndPreReqs.Contains(connectToTech.data.Type))
-    //     {
-    //         AndPreReqs.Remove(connectToTech.data.Type);
-    //     }
-    //     else
-    //     {
-    //         AndPreReqs.Add(connectToTech.data.Type);
-    //     }
-    // }
-    // public void OrPreq(TechObject connectToTech)
-    // {
-    //     if (OrPreReqs.Contains(connectToTech.data.Type))
-    //     {
-    //         OrPreReqs.Remove(connectToTech.data.Type);
-    //     }
-    //     else
-    //     {
-    //         OrPreReqs.Add(connectToTech.data.Type);
-    //     }
-    // }
+    public void AndPreq(TechView connectToTech)
+    {
+        if (AndPreReqs.Contains(connectToTech.data.Type))
+        {
+            AndPreReqs.Remove(connectToTech.data.Type);
+        }
+        else
+        {
+            AndPreReqs.Add(connectToTech.data.Type);
+        }
+    }
+    public void OrPreq(TechView connectToTech)
+    {
+        if (OrPreReqs.Contains(connectToTech.data.Type))
+        {
+            OrPreReqs.Remove(connectToTech.data.Type);
+        }
+        else
+        {
+            OrPreReqs.Add(connectToTech.data.Type);
+        }
+    }
 }
