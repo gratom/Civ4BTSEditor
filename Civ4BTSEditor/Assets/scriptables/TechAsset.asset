@@ -16,8 +16,8 @@ MonoBehaviour:
   value:
     TechInfos:
     - Type: TECH_MYSTICISM
-      Description: TXT_KEY_TECH_MYSTICISM
-      Civilopedia: TXT_KEY_TECH_MYSTICISM_PEDIA
+      Description: TXT_KEY_TECH_MYSTICISM_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MYSTICISM_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MYSTICISM_STRATEGY
       Advisor: ADVISOR_RELIGION
@@ -76,8 +76,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MYSTICISM
       Button: ',Art/Interface/Buttons/TechTree/Mysticism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,11'
     - Type: TECH_MEDITATION
-      Description: TXT_KEY_TECH_MEDITATION
-      Civilopedia: TXT_KEY_TECH_MEDITATION_PEDIA
+      Description: TXT_KEY_TECH_MEDITATION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MEDITATION_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MEDITATION_STRATEGY
       Advisor: ADVISOR_RELIGION
@@ -135,8 +135,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MEDITATION
       Button: ',Art/Interface/Buttons/TechTree/Meditation.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,5'
     - Type: TECH_POLYTHEISM
-      Description: TXT_KEY_TECH_POLYTHEISM
-      Civilopedia: TXT_KEY_TECH_POLYTHEISM_PEDIA
+      Description: TXT_KEY_TECH_POLYTHEISM_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_POLYTHEISM_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_POLYTHEISM_STRATEGY
       Advisor: ADVISOR_RELIGION
@@ -192,8 +192,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_POLYTHEISM
       Button: ',Art/Interface/Buttons/TechTree/Polytheism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,6'
     - Type: TECH_PRIESTHOOD
-      Description: TXT_KEY_TECH_PRIESTHOOD
-      Civilopedia: TXT_KEY_TECH_PRIESTHOOD_PEDIA
+      Description: TXT_KEY_TECH_PRIESTHOOD_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_PRIESTHOOD_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_PRIESTHOOD_STRATEGY
       Advisor: ADVISOR_RELIGION
@@ -254,8 +254,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_PRIESTHOOD
       Button: ',Art/Interface/Buttons/TechTree/Priesthood.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,11'
     - Type: TECH_MONOTHEISM
-      Description: TXT_KEY_TECH_MONOTHEISM
-      Civilopedia: TXT_KEY_TECH_MONOTHEISM_PEDIA
+      Description: TXT_KEY_TECH_MONOTHEISM_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MONOTHEISM_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MONOTHEISM_STRATEGY
       Advisor: ADVISOR_RELIGION
@@ -314,8 +314,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MONOTHEISM
       Button: ',Art/Interface/Buttons/TechTree/Monotheism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,11'
     - Type: TECH_MONARCHY
-      Description: TXT_KEY_TECH_MONARCHY
-      Civilopedia: TXT_KEY_TECH_MONARCHY_PEDIA
+      Description: TXT_KEY_TECH_MONARCHY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MONARCHY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MONARCHY_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -378,8 +378,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MONARCHY
       Button: ',Art/Interface/Buttons/TechTree/Monarchy.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,11'
     - Type: TECH_LITERATURE
-      Description: TXT_KEY_TECH_LITERATURE
-      Civilopedia: TXT_KEY_TECH_LITERATURE_PEDIA
+      Description: TXT_KEY_TECH_LITERATURE_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_LITERATURE_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_LITERATURE_STRATEGY
       Advisor: ADVISOR_CULTURE
@@ -438,8 +438,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_LITERATURE
       Button: ',Art/Interface/Buttons/TechTree/Literature.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,10'
     - Type: TECH_CODE_OF_LAWS
-      Description: TXT_KEY_TECH_CODE_OF_LAWS
-      Civilopedia: TXT_KEY_TECH_CODE_OF_LAWS_PEDIA
+      Description: TXT_KEY_TECH_CODE_OF_LAWS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_CODE_OF_LAWS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_CODE_OF_LAWS_STRATEGY
       Advisor: ADVISOR_RELIGION
@@ -494,8 +494,8 @@ MonoBehaviour:
       - FlavorType: FLAVOR_GROWTH
         flavor: 4
       OrPreReqs:
-      - TECH_PRIESTHOOD
       - TECH_CURRENCY
+      - TECH_MONARCHY
       AndPreReqs:
       - TECH_WRITING
       Quote: TXT_KEY_TECH_CODE_OF_LAWS_QUOTE
@@ -503,8 +503,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_CODE_OF_LAWS
       Button: ',Art/Interface/Buttons/TechTree/Code of Laws.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,2'
     - Type: TECH_DRAMA
-      Description: TXT_KEY_TECH_DRAMA
-      Civilopedia: TXT_KEY_TECH_DRAMA_PEDIA
+      Description: TXT_KEY_TECH_DRAMA_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_DRAMA_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_DRAMA_STRATEGY
       Advisor: ADVISOR_CULTURE
@@ -564,8 +564,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_DRAMA
       Button: ',Art/Interface/Buttons/TechTree/Drama.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,3'
     - Type: TECH_FEUDALISM
-      Description: TXT_KEY_TECH_FEUDALISM
-      Civilopedia: TXT_KEY_TECH_FEUDALISM_PEDIA
+      Description: TXT_KEY_TECH_FEUDALISM_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_FEUDALISM_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_FEUDALISM_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -624,8 +624,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_FEUDALISM
       Button: ',Art/Interface/Buttons/TechTree/Feudalism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,10'
     - Type: TECH_THEOLOGY
-      Description: TXT_KEY_TECH_THEOLOGY
-      Civilopedia: TXT_KEY_TECH_THEOLOGY_PEDIA
+      Description: TXT_KEY_TECH_THEOLOGY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_THEOLOGY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_THEOLOGY_STRATEGY
       Advisor: ADVISOR_RELIGION
@@ -684,8 +684,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_THEOLOGY
       Button: ',Art/Interface/Buttons/TechTree/Theology.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,12'
     - Type: TECH_MUSIC
-      Description: TXT_KEY_TECH_MUSIC
-      Civilopedia: TXT_KEY_TECH_MUSIC_PEDIA
+      Description: TXT_KEY_TECH_MUSIC_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MUSIC_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MUSIC_STRATEGY
       Advisor: ADVISOR_CULTURE
@@ -747,8 +747,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MUSIC
       Button: ',Art/Interface/Buttons/TechTree/Music.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,11'
     - Type: TECH_CIVIL_SERVICE
-      Description: TXT_KEY_TECH_CIVIL_SERVICE
-      Civilopedia: TXT_KEY_TECH_CIVIL_SERVICE_PEDIA
+      Description: TXT_KEY_TECH_CIVIL_SERVICE_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_CIVIL_SERVICE_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_CIVIL_SERVICE_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -816,8 +816,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_CIVIL_SERVICE
       Button: ',Art/Interface/Buttons/TechTree/Civil Service.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,2'
     - Type: TECH_GUILDS
-      Description: TXT_KEY_TECH_GUILDS
-      Civilopedia: TXT_KEY_TECH_GUILDS_PEDIA
+      Description: TXT_KEY_TECH_GUILDS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_GUILDS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_GUILDS_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -878,8 +878,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_GUILDS
       Button: ',Art/Interface/Buttons/TechTree/Guilds.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,4'
     - Type: TECH_DIVINE_RIGHT
-      Description: TXT_KEY_TECH_DIVINE_RIGHT
-      Civilopedia: TXT_KEY_TECH_DIVINE_RIGHT_PEDIA
+      Description: TXT_KEY_TECH_DIVINE_RIGHT_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_DIVINE_RIGHT_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_DIVINE_RIGHT_STRATEGY
       Advisor: ADVISOR_RELIGION
@@ -940,8 +940,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_DIVINE_RIGHT
       Button: ',Art/Interface/Buttons/TechTree/Divine Right.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,3'
     - Type: TECH_NATIONALISM
-      Description: TXT_KEY_TECH_NATIONALISM
-      Civilopedia: TXT_KEY_TECH_NATIONALISM_PEDIA
+      Description: TXT_KEY_TECH_NATIONALISM_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_NATIONALISM_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_NATIONALISM_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -1005,8 +1005,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_NATIONALISM
       Button: ',Art/Interface/Buttons/TechTree/Nationalism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,6'
     - Type: TECH_MILITARY_TRADITION
-      Description: TXT_KEY_TECH_MILITARY_TRADITION
-      Civilopedia: TXT_KEY_TECH_MILITARY_TRADITION_PEDIA
+      Description: TXT_KEY_TECH_MILITARY_TRADITION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MILITARY_TRADITION_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MILITARY_TRADITION_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -1065,8 +1065,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MILITARY_TRADITION
       Button: ',Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,1,16'
     - Type: TECH_CONSTITUTION
-      Description: TXT_KEY_TECH_CONSTITUTION
-      Civilopedia: TXT_KEY_TECH_CONSTITUTION_PEDIA
+      Description: TXT_KEY_TECH_CONSTITUTION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_CONSTITUTION_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_CONSTITUTION_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -1127,8 +1127,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_CONSTITUTION
       Button: ',Art/Interface/Buttons/TechTree/Constitution.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,2'
     - Type: TECH_LIBERALISM
-      Description: TXT_KEY_TECH_LIBERALISM
-      Civilopedia: TXT_KEY_TECH_LIBERALISM_PEDIA
+      Description: TXT_KEY_TECH_LIBERALISM_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_LIBERALISM_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_LIBERALISM_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -1187,8 +1187,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_LIBERALISM
       Button: ',Art/Interface/Buttons/TechTree/Liberalism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,10'
     - Type: TECH_DEMOCRACY
-      Description: TXT_KEY_TECH_DEMOCRACY
-      Civilopedia: TXT_KEY_TECH_DEMOCRACY_PEDIA
+      Description: TXT_KEY_TECH_DEMOCRACY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_DEMOCRACY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_DEMOCRACY_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -1245,8 +1245,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_DEMOCRACY
       Button: ',Art/Interface/Buttons/TechTree/Democracy.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,9'
     - Type: TECH_CORPORATION
-      Description: TXT_KEY_TECH_CORPORATION
-      Civilopedia: TXT_KEY_TECH_CORPORATION_PEDIA
+      Description: TXT_KEY_TECH_CORPORATION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_CORPORATION_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_CORPORATION_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -1307,8 +1307,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_CORPORATION
       Button: ',Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,9'
     - Type: TECH_FASCISM
-      Description: TXT_KEY_TECH_FASCISM
-      Civilopedia: TXT_KEY_TECH_FASCISM_PEDIA
+      Description: TXT_KEY_TECH_FASCISM_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_FASCISM_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_FASCISM_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -1371,8 +1371,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_FASCISM
       Button: ',Art/Interface/Buttons/TechTree/Fascism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,3'
     - Type: TECH_UTOPIA
-      Description: TXT_KEY_TECH_UTOPIA
-      Civilopedia: TXT_KEY_TECH_UTOPIA_PEDIA
+      Description: TXT_KEY_TECH_UTOPIA_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_UTOPIA_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_UTOPIA_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -1433,8 +1433,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_UTOPIA
       Button: ',Art/Interface/Buttons/TechTree/Communism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,2'
     - Type: TECH_MASS_MEDIA
-      Description: TXT_KEY_TECH_MASS_MEDIA
-      Civilopedia: TXT_KEY_TECH_MASS_MEDIA_PEDIA
+      Description: TXT_KEY_TECH_MASS_MEDIA_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MASS_MEDIA_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MASS_MEDIA_STRATEGY
       Advisor: ADVISOR_CULTURE
@@ -1494,8 +1494,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MASS_MEDIA
       Button: ',Art/Interface/Buttons/TechTree/MassMedia.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,5'
     - Type: TECH_ECOLOGY
-      Description: TXT_KEY_TECH_ECOLOGY
-      Civilopedia: TXT_KEY_TECH_ECOLOGY_PEDIA
+      Description: TXT_KEY_TECH_ECOLOGY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ECOLOGY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ECOLOGY_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -1555,8 +1555,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ECOLOGY
       Button: ',Art/Interface/Buttons/TechTree/Ecology.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,3'
     - Type: TECH_FISHING
-      Description: TXT_KEY_TECH_FISHING
-      Civilopedia: TXT_KEY_TECH_FISHING_PEDIA
+      Description: TXT_KEY_TECH_FISHING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_FISHING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_FISHING_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -1615,8 +1615,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_FISHING
       Button: ',Art/Interface/Buttons/TechTree/Fishing.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,10'
     - Type: TECH_THE_WHEEL
-      Description: TXT_KEY_TECH_THE_WHEEL
-      Civilopedia: TXT_KEY_TECH_THE_WHEEL_PEDIA
+      Description: TXT_KEY_TECH_THE_WHEEL_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_THE_WHEEL_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_THE_WHEEL_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -1677,8 +1677,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_THE_WHEEL
       Button: ',Art/Interface/Buttons/TechTree/The Wheel.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,12'
     - Type: TECH_AGRICULTURE
-      Description: TXT_KEY_TECH_AGRICULTURE
-      Civilopedia: TXT_KEY_TECH_AGRICULTURE_PEDIA
+      Description: TXT_KEY_TECH_AGRICULTURE_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_AGRICULTURE_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_AGRICULTURE_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -1737,8 +1737,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_AGRICULTURE
       Button: ',Art/Interface/Buttons/TechTree/Agriculture.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,1'
     - Type: TECH_POTTERY
-      Description: TXT_KEY_TECH_POTTERY
-      Civilopedia: TXT_KEY_TECH_POTTERY_PEDIA
+      Description: TXT_KEY_TECH_POTTERY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_POTTERY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_POTTERY_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -1799,8 +1799,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_POTTERY
       Button: ',Art/Interface/Buttons/TechTree/Pottery.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,6'
     - Type: TECH_AESTHETICS
-      Description: TXT_KEY_TECH_AESTHETICS
-      Civilopedia: TXT_KEY_TECH_AESTHETICS_PEDIA
+      Description: TXT_KEY_TECH_AESTHETICS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_AESTHETICS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_AESTHETICS_STRATEGY
       Advisor: ADVISOR_CULTURE
@@ -1858,8 +1858,8 @@ MonoBehaviour:
       SoundMP: SND_TECH_MP_AESTHETICS
       Button: ',Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,2,16'
     - Type: TECH_SAILING
-      Description: TXT_KEY_TECH_SAILING
-      Civilopedia: TXT_KEY_TECH_SAILING_PEDIA
+      Description: TXT_KEY_TECH_SAILING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_SAILING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_SAILING_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -1923,8 +1923,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_SAILING
       Button: ',Art/Interface/Buttons/TechTree/Sailing.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,7'
     - Type: TECH_WRITING
-      Description: TXT_KEY_TECH_WRITING
-      Civilopedia: TXT_KEY_TECH_WRITING_PEDIA
+      Description: TXT_KEY_TECH_WRITING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_WRITING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_WRITING_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -1986,8 +1986,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_WRITING
       Button: ',Art/Interface/Buttons/TechTree/Writing.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,12'
     - Type: TECH_MATHEMATICS
-      Description: TXT_KEY_TECH_MATHEMATICS
-      Civilopedia: TXT_KEY_TECH_MATHEMATICS_PEDIA
+      Description: TXT_KEY_TECH_MATHEMATICS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MATHEMATICS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MATHEMATICS_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -2047,8 +2047,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MATHEMATICS
       Button: ',Art/Interface/Buttons/TechTree/Mathematics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,5'
     - Type: TECH_ALPHABET
-      Description: TXT_KEY_TECH_ALPHABET
-      Civilopedia: TXT_KEY_TECH_ALPHABET_PEDIA
+      Description: TXT_KEY_TECH_ALPHABET_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ALPHABET_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ALPHABET_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -2106,8 +2106,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ALPHABET
       Button: ',Art/Interface/Buttons/TechTree/Alphabet.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,1'
     - Type: TECH_CALENDAR
-      Description: TXT_KEY_TECH_CALENDAR
-      Civilopedia: TXT_KEY_TECH_CALENDAR_PEDIA
+      Description: TXT_KEY_TECH_CALENDAR_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_CALENDAR_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_CALENDAR_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -2170,8 +2170,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_CALENDAR
       Button: ',Art/Interface/Buttons/TechTree/Calendar.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,9'
     - Type: TECH_CURRENCY
-      Description: TXT_KEY_TECH_CURRENCY
-      Civilopedia: TXT_KEY_TECH_CURRENCY_PEDIA
+      Description: TXT_KEY_TECH_CURRENCY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_CURRENCY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_CURRENCY_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -2230,8 +2230,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_CURRENCY
       Button: ',Art/Interface/Buttons/TechTree/Currency.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,9'
     - Type: TECH_PHILOSOPHY
-      Description: TXT_KEY_TECH_PHILOSOPHY
-      Civilopedia: TXT_KEY_TECH_PHILOSOPHY_PEDIA
+      Description: TXT_KEY_TECH_PHILOSOPHY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_PHILOSOPHY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_PHILOSOPHY_STRATEGY
       Advisor: ADVISOR_RELIGION
@@ -2291,8 +2291,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_PHILOSOPHY
       Button: ',Art/Interface/Buttons/TechTree/Philosophy.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,6'
     - Type: TECH_PAPER
-      Description: TXT_KEY_TECH_PAPER
-      Civilopedia: TXT_KEY_TECH_PAPER_PEDIA
+      Description: TXT_KEY_TECH_PAPER_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_PAPER_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_PAPER_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -2353,8 +2353,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_PAPER
       Button: ',Art/Interface/Buttons/TechTree/Paper.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,6'
     - Type: TECH_BANKING
-      Description: TXT_KEY_TECH_BANKING
-      Civilopedia: TXT_KEY_TECH_BANKING_PEDIA
+      Description: TXT_KEY_TECH_BANKING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_BANKING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_BANKING_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -2411,8 +2411,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_BANKING
       Button: ',Art/Interface/Buttons/TechTree/Banking.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,1'
     - Type: TECH_EDUCATION
-      Description: TXT_KEY_TECH_EDUCATION
-      Civilopedia: TXT_KEY_TECH_EDUCATION_PEDIA
+      Description: TXT_KEY_TECH_EDUCATION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_EDUCATION_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_EDUCATION_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -2470,8 +2470,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_EDUCATION
       Button: ',Art/Interface/Buttons/TechTree/Education.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,3'
     - Type: TECH_PRINTING_PRESS
-      Description: TXT_KEY_TECH_PRINTING_PRESS
-      Civilopedia: TXT_KEY_TECH_PRINTING_PRESS_PEDIA
+      Description: TXT_KEY_TECH_PRINTING_PRESS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_PRINTING_PRESS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_PRINTING_PRESS_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -2533,8 +2533,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_PRINTPRESS
       Button: ',Art/Interface/Buttons/TechTree/Printing Press.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,11'
     - Type: TECH_ECONOMICS
-      Description: TXT_KEY_TECH_ECONOMICS
-      Civilopedia: TXT_KEY_TECH_ECONOMICS_PEDIA
+      Description: TXT_KEY_TECH_ECONOMICS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ECONOMICS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ECONOMICS_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -2595,8 +2595,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ECONOMICS
       Button: ',Art/Interface/Buttons/TechTree/Economics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,3'
     - Type: TECH_ASTRONOMY
-      Description: TXT_KEY_TECH_ASTRONOMY
-      Civilopedia: TXT_KEY_TECH_ASTRONOMY_PEDIA
+      Description: TXT_KEY_TECH_ASTRONOMY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ASTRONOMY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ASTRONOMY_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -2657,8 +2657,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ASTRONOMY
       Button: ',Art/Interface/Buttons/TechTree/Astronomy.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,1'
     - Type: TECH_CHEMISTRY
-      Description: TXT_KEY_TECH_CHEMISTRY
-      Civilopedia: TXT_KEY_TECH_CHEMISTRY_PEDIA
+      Description: TXT_KEY_TECH_CHEMISTRY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_CHEMISTRY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_CHEMISTRY_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -2715,8 +2715,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_CHEMISTRY
       Button: ',Art/Interface/Buttons/TechTree/Chemistry.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,9'
     - Type: TECH_SCIENTIFIC_METHOD
-      Description: TXT_KEY_TECH_SCIENTIFIC_METHOD
-      Civilopedia: TXT_KEY_TECH_SCIENTIFIC_METHOD_PEDIA
+      Description: TXT_KEY_TECH_SCIENTIFIC_METHOD_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_SCIENTIFIC_METHOD_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_SCIENTIFIC_METHOD_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -2776,8 +2776,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_SCIMETHOD
       Button: ',Art/Interface/Buttons/TechTree/Scientific Method.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,7'
     - Type: TECH_PHYSICS
-      Description: TXT_KEY_TECH_PHYSICS
-      Civilopedia: TXT_KEY_TECH_PHYSICS_PEDIA
+      Description: TXT_KEY_TECH_PHYSICS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_PHYSICS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_PHYSICS_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -2836,8 +2836,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_PHYSICS
       Button: ',Art/Interface/Buttons/TechTree/Physics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,6'
     - Type: TECH_BIOLOGY
-      Description: TXT_KEY_TECH_BIOLOGY
-      Civilopedia: TXT_KEY_TECH_BIOLOGY_PEDIA
+      Description: TXT_KEY_TECH_BIOLOGY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_BIOLOGY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_BIOLOGY_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -2896,8 +2896,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_BIOLOGY
       Button: ',Art/Interface/Buttons/TechTree/Biology.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,9'
     - Type: TECH_MEDICINE
-      Description: TXT_KEY_TECH_MEDICINE
-      Civilopedia: TXT_KEY_TECH_MEDICINE_PEDIA
+      Description: TXT_KEY_TECH_MEDICINE_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MEDICINE_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MEDICINE_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -2960,8 +2960,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MEDICINE
       Button: ',Art/Interface/Buttons/TechTree/Medicine.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,5'
     - Type: TECH_ELECTRICITY
-      Description: TXT_KEY_TECH_ELECTRICITY
-      Civilopedia: TXT_KEY_TECH_ELECTRICITY_PEDIA
+      Description: TXT_KEY_TECH_ELECTRICITY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ELECTRICITY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ELECTRICITY_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -3021,8 +3021,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ELECTRICITY
       Button: ',Art/Interface/Buttons/TechTree/Electricity.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,3'
     - Type: TECH_COMBUSTION
-      Description: TXT_KEY_TECH_COMBUSTION
-      Civilopedia: TXT_KEY_TECH_COMBUSTION_PEDIA
+      Description: TXT_KEY_TECH_COMBUSTION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_COMBUSTION_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_COMBUSTION_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -3080,8 +3080,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_COMBUSTION
       Button: ',Art/Interface/Buttons/TechTree/Combustion.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,2'
     - Type: TECH_FISSION
-      Description: TXT_KEY_TECH_FISSION
-      Civilopedia: TXT_KEY_TECH_FISSION_PEDIA
+      Description: TXT_KEY_TECH_FISSION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_FISSION_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_FISSION_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -3139,8 +3139,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_FISSION
       Button: ',Art/Interface/Buttons/TechTree/Fission.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,10'
     - Type: TECH_FLIGHT
-      Description: TXT_KEY_TECH_FLIGHT
-      Civilopedia: TXT_KEY_TECH_FLIGHT_PEDIA
+      Description: TXT_KEY_TECH_FLIGHT_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_FLIGHT_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_FLIGHT_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -3203,8 +3203,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_FLIGHT
       Button: ',Art/Interface/Buttons/TechTree/Flight.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,10'
     - Type: TECH_ADVANCED_FLIGHT
-      Description: TXT_KEY_TECH_ADVANCED_FLIGHT
-      Civilopedia: TXT_KEY_TECH_ADVANCED_FLIGHT_PEDIA
+      Description: TXT_KEY_TECH_ADVANCED_FLIGHT_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ADVANCED_FLIGHT_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ADVANCED_FLIGHT_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -3261,8 +3261,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ADVANCED_FLIGHT
       Button: ',Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,3,16'
     - Type: TECH_PLASTICS
-      Description: TXT_KEY_TECH_PLASTICS
-      Civilopedia: TXT_KEY_TECH_PLASTICS_PEDIA
+      Description: TXT_KEY_TECH_PLASTICS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_PLASTICS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_PLASTICS_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -3321,8 +3321,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_PLASTICS
       Button: ',Art/Interface/Buttons/TechTree/Plastics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,6'
     - Type: TECH_COMPOSITES
-      Description: TXT_KEY_TECH_COMPOSITES
-      Civilopedia: TXT_KEY_TECH_COMPOSITES_PEDIA
+      Description: TXT_KEY_TECH_COMPOSITES_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_COMPOSITES_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_COMPOSITES_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -3379,8 +3379,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_COMPOSITES
       Button: ',Art/Interface/Buttons/TechTree/Composites.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,2'
     - Type: TECH_STEALTH
-      Description: TXT_KEY_TECH_STEALTH
-      Civilopedia: TXT_KEY_TECH_STEALTH_PEDIA
+      Description: TXT_KEY_TECH_STEALTH_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_STEALTH_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_STEALTH_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -3437,8 +3437,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_STEALTH
       Button: ',Art/Interface/Buttons/Units/StealthBomber.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,10'
     - Type: TECH_GENETICS
-      Description: TXT_KEY_TECH_GENETICS
-      Civilopedia: TXT_KEY_TECH_GENETICS_PEDIA
+      Description: TXT_KEY_TECH_GENETICS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_GENETICS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_GENETICS_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -3497,8 +3497,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_GENETICS
       Button: ',Art/Interface/Buttons/TechTree/Genetics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,4'
     - Type: TECH_FIBER_OPTICS
-      Description: TXT_KEY_TECH_FIBER_OPTICS
-      Civilopedia: TXT_KEY_TECH_FIBER_OPTICS_PEDIA
+      Description: TXT_KEY_TECH_FIBER_OPTICS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_FIBER_OPTICS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_FIBER_OPTICS_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -3555,8 +3555,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_FIBER_OPTICS
       Button: ',Art/Interface/Buttons/TechTree/FiberOptics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,8'
     - Type: TECH_FUSION
-      Description: TXT_KEY_TECH_FUSION
-      Civilopedia: TXT_KEY_TECH_FUSION_PEDIA
+      Description: TXT_KEY_TECH_FUSION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_FUSION_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_FUSION_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -3613,8 +3613,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_FUSION
       Button: ',Art/Interface/Buttons/TechTree/Fusion.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,4'
     - Type: TECH_HUNTING
-      Description: TXT_KEY_TECH_HUNTING
-      Civilopedia: TXT_KEY_TECH_HUNTING_PEDIA
+      Description: TXT_KEY_TECH_HUNTING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_HUNTING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_HUNTING_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -3675,8 +3675,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_HUNTING
       Button: ',Art/Interface/Buttons/TechTree/Hunting.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,4'
     - Type: TECH_MINING
-      Description: TXT_KEY_TECH_MINING
-      Civilopedia: TXT_KEY_TECH_MINING_PEDIA
+      Description: TXT_KEY_TECH_MINING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MINING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MINING_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -3733,8 +3733,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MINING
       Button: ',Art/Interface/Buttons/TechTree/Mining.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,5'
     - Type: TECH_ARCHERY
-      Description: TXT_KEY_TECH_ARCHERY
-      Civilopedia: TXT_KEY_TECH_ARCHERY_PEDIA
+      Description: TXT_KEY_TECH_ARCHERY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ARCHERY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ARCHERY_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -3792,8 +3792,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ARCHERY
       Button: ',Art/Interface/Buttons/TechTree/Archery.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,1'
     - Type: TECH_MASONRY
-      Description: TXT_KEY_TECH_MASONRY
-      Civilopedia: TXT_KEY_TECH_MASONRY_PEDIA
+      Description: TXT_KEY_TECH_MASONRY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MASONRY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MASONRY_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -3856,8 +3856,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MASONRY
       Button: ',Art/Interface/Buttons/TechTree/Masonry.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,5'
     - Type: TECH_ANIMAL_HUSBANDRY
-      Description: TXT_KEY_TECH_ANIMAL_HUSBANDRY
-      Civilopedia: TXT_KEY_TECH_ANIMAL_HUSBANDRY_PEDIA
+      Description: TXT_KEY_TECH_ANIMAL_HUSBANDRY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ANIMAL_HUSBANDRY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ANIMAL_HUSBANDRY_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -3922,8 +3922,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ANIMALHUSB
       Button: ',Art/Interface/Buttons/TechTree/Animal Husbandry.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,1'
     - Type: TECH_BRONZE_WORKING
-      Description: TXT_KEY_TECH_BRONZE_WORKING
-      Civilopedia: TXT_KEY_TECH_BRONZE_WORKING_PEDIA
+      Description: TXT_KEY_TECH_BRONZE_WORKING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_BRONZE_WORKING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_BRONZE_WORKING_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -3983,8 +3983,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_BRONZEWORK
       Button: ',Art/Interface/Buttons/TechTree/Bronze Working.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,9'
     - Type: TECH_HORSEBACK_RIDING
-      Description: TXT_KEY_TECH_HORSEBACK_RIDING
-      Civilopedia: TXT_KEY_TECH_HORSEBACK_RIDING_PEDIA
+      Description: TXT_KEY_TECH_HORSEBACK_RIDING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_HORSEBACK_RIDING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_HORSEBACK_RIDING_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -4046,8 +4046,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_HORSERIDING
       Button: ',Art/Interface/Buttons/TechTree/Horseback Riding.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,4'
     - Type: TECH_IRON_WORKING
-      Description: TXT_KEY_TECH_IRON_WORKING
-      Civilopedia: TXT_KEY_TECH_IRON_WORKING_PEDIA
+      Description: TXT_KEY_TECH_IRON_WORKING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_IRON_WORKING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_IRON_WORKING_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -4107,8 +4107,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_IRONWORK
       Button: ',Art/Interface/Buttons/TechTree/Iron Working.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,10'
     - Type: TECH_METAL_CASTING
-      Description: TXT_KEY_TECH_METAL_CASTING
-      Civilopedia: TXT_KEY_TECH_METAL_CASTING_PEDIA
+      Description: TXT_KEY_TECH_METAL_CASTING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_METAL_CASTING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_METAL_CASTING_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -4163,7 +4163,7 @@ MonoBehaviour:
       - FlavorType: FLAVOR_CULTURE
         flavor: 2
       OrPreReqs:
-      - TECH_IRON_WORKING
+      - TECH_ORGANIZED_PRODUCTION
       AndPreReqs:
       - TECH_POTTERY
       Quote: TXT_KEY_TECH_METAL_CASTING_QUOTE
@@ -4171,8 +4171,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_METALCAST
       Button: ',Art/Interface/Buttons/TechTree/Metal Casting.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,5'
     - Type: TECH_COMPASS
-      Description: TXT_KEY_TECH_COMPASS
-      Civilopedia: TXT_KEY_TECH_COMPASS_PEDIA
+      Description: TXT_KEY_TECH_COMPASS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_COMPASS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_COMPASS_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -4233,8 +4233,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_COMPASS
       Button: ',Art/Interface/Buttons/TechTree/Compass.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,2'
     - Type: TECH_CONSTRUCTION
-      Description: TXT_KEY_TECH_CONSTRUCTION
-      Civilopedia: TXT_KEY_TECH_CONSTRUCTION_PEDIA
+      Description: TXT_KEY_TECH_CONSTRUCTION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_CONSTRUCTION_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_CONSTRUCTION_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -4299,8 +4299,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_CONSTRUCTION
       Button: ',Art/Interface/Buttons/TechTree/Construction.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,9'
     - Type: TECH_MACHINERY
-      Description: TXT_KEY_TECH_MACHINERY
-      Civilopedia: TXT_KEY_TECH_MACHINERY_PEDIA
+      Description: TXT_KEY_TECH_MACHINERY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MACHINERY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MACHINERY_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -4360,8 +4360,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MACHINERY
       Button: ',Art/Interface/Buttons/TechTree/Machinery.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,10'
     - Type: TECH_ENGINEERING
-      Description: TXT_KEY_TECH_ENGINEERING
-      Civilopedia: TXT_KEY_TECH_ENGINEERING_PEDIA
+      Description: TXT_KEY_TECH_ENGINEERING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ENGINEERING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ENGINEERING_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -4422,8 +4422,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ENGINEERING
       Button: ',Art/Interface/Buttons/TechTree/Engineering.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,3'
     - Type: TECH_OPTICS
-      Description: TXT_KEY_TECH_OPTICS
-      Civilopedia: TXT_KEY_TECH_OPTICS_PEDIA
+      Description: TXT_KEY_TECH_OPTICS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_OPTICS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_OPTICS_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -4484,8 +4484,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_OPTICS
       Button: ',Art/Interface/Buttons/TechTree/Optics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,6'
     - Type: TECH_GUNPOWDER
-      Description: TXT_KEY_TECH_GUNPOWDER
-      Civilopedia: TXT_KEY_TECH_GUNPOWDER_PEDIA
+      Description: TXT_KEY_TECH_GUNPOWDER_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_GUNPOWDER_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_GUNPOWDER_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -4544,8 +4544,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_GUNPOWDER
       Button: ',Art/Interface/Buttons/TechTree/Gunpowder.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,4'
     - Type: TECH_REPLACEABLE_PARTS
-      Description: TXT_KEY_TECH_REPLACEABLE_PARTS
-      Civilopedia: TXT_KEY_TECH_REPLACEABLE_PARTS_PEDIA
+      Description: TXT_KEY_TECH_REPLACEABLE_PARTS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_REPLACEABLE_PARTS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_REPLACEABLE_PARTS_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -4606,8 +4606,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_REPLACE_PARTS
       Button: ',Art/Interface/Buttons/TechTree/Replaceable Parts.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,7'
     - Type: TECH_MILITARY_SCIENCE
-      Description: TXT_KEY_TECH_MILITARY_SCIENCE
-      Civilopedia: TXT_KEY_TECH_MILITARY_SCIENCE_PEDIA
+      Description: TXT_KEY_TECH_MILITARY_SCIENCE_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_MILITARY_SCIENCE_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_MILITARY_SCIENCE_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -4663,8 +4663,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_MILITARY_SCIENCE
       Button: ',Art/Interface/Buttons/TechTree/Military Tradition.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,5'
     - Type: TECH_RIFLING
-      Description: TXT_KEY_TECH_RIFLING
-      Civilopedia: TXT_KEY_TECH_RIFLING_PEDIA
+      Description: TXT_KEY_TECH_RIFLING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_RIFLING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_RIFLING_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -4723,8 +4723,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_RIFLING
       Button: ',Art/Interface/Buttons/TechTree/Rifling.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,7'
     - Type: TECH_STEAM_POWER
-      Description: TXT_KEY_TECH_STEAM_POWER
-      Civilopedia: TXT_KEY_TECH_STEAM_POWER_PEDIA
+      Description: TXT_KEY_TECH_STEAM_POWER_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_STEAM_POWER_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_STEAM_POWER_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -4787,8 +4787,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_STEAMPOWER
       Button: ',Art/Interface/Buttons/TechTree/Steam Power.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,12'
     - Type: TECH_STEEL
-      Description: TXT_KEY_TECH_STEEL
-      Civilopedia: TXT_KEY_TECH_STEEL_PEDIA
+      Description: TXT_KEY_TECH_STEEL_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_STEEL_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_STEEL_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -4847,8 +4847,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_STEEL
       Button: ',Art/Interface/Buttons/TechTree/Steel.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,12'
     - Type: TECH_ASSEMBLY_LINE
-      Description: TXT_KEY_TECH_ASSEMBLY_LINE
-      Civilopedia: TXT_KEY_TECH_ASSEMBLY_LINE_PEDIA
+      Description: TXT_KEY_TECH_ASSEMBLY_LINE_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ASSEMBLY_LINE_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ASSEMBLY_LINE_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -4907,8 +4907,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ASSEMBLINE
       Button: ',Art/Interface/Buttons/TechTree/Assembly Line.dds,Art/Interface/Buttons/TechTree_Atlas.dds,6,1'
     - Type: TECH_RAILROAD
-      Description: TXT_KEY_TECH_RAILROAD
-      Civilopedia: TXT_KEY_TECH_RAILROAD_PEDIA
+      Description: TXT_KEY_TECH_RAILROAD_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_RAILROAD_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_RAILROAD_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -4971,8 +4971,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_RAILROAD
       Button: ',Art/Interface/Buttons/TechTree/Railroad.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,11'
     - Type: TECH_ARTILLERY
-      Description: TXT_KEY_TECH_ARTILLERY
-      Civilopedia: TXT_KEY_TECH_ARTILLERY_PEDIA
+      Description: TXT_KEY_TECH_ARTILLERY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ARTILLERY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ARTILLERY_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -5030,8 +5030,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ARTILLERY
       Button: ',Art/Interface/Buttons/TechTree/Artillery.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,1'
     - Type: TECH_INDUSTRIALISM
-      Description: TXT_KEY_TECH_INDUSTRIALISM
-      Civilopedia: TXT_KEY_TECH_INDUSTRIALISM_PEDIA
+      Description: TXT_KEY_TECH_INDUSTRIALISM_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_INDUSTRIALISM_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_INDUSTRIALISM_STRATEGY
       Advisor: ADVISOR_ECONOMY
@@ -5092,8 +5092,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_INDUSTRIALISM
       Button: ',Art/Interface/Buttons/TechTree/Industrialism.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,4'
     - Type: TECH_RADIO
-      Description: TXT_KEY_TECH_RADIO
-      Civilopedia: TXT_KEY_TECH_RADIO_PEDIA
+      Description: TXT_KEY_TECH_RADIO_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_RADIO_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_RADIO_STRATEGY
       Advisor: ADVISOR_CULTURE
@@ -5151,8 +5151,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_RADIO
       Button: ',Art/Interface/Buttons/TechTree/Radio.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,11'
     - Type: TECH_REFRIGERATION
-      Description: TXT_KEY_TECH_REFRIGERATION
-      Civilopedia: TXT_KEY_TECH_REFRIGERATION_PEDIA
+      Description: TXT_KEY_TECH_REFRIGERATION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_REFRIGERATION_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_REFRIGERATION_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -5213,8 +5213,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_REFRIGERATION
       Button: ',Art/Interface/Buttons/TechTree/Refrigeration.dds,Art/Interface/Buttons/TechTree_Atlas.dds,1,7'
     - Type: TECH_SUPERCONDUCTORS
-      Description: TXT_KEY_TECH_SUPERCONDUCTORS
-      Civilopedia: TXT_KEY_TECH_SUPERCONDUCTORS_PEDIA
+      Description: TXT_KEY_TECH_SUPERCONDUCTORS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_SUPERCONDUCTORS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_SUPERCONDUCTORS_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -5266,13 +5266,13 @@ MonoBehaviour:
       - TECH_REFRIGERATION
       - TECH_COMPUTERS
       AndPreReqs: []
-      Quote: TXT_KEY_TECH_SUPERCONDUCTOR_QUOTE
+      Quote: TXT_KEY_TECH_SUPERCONDUCTORS_QUOTE
       Sound: AS2D_TECH_SUPERCONDUCTOR
       SoundMP: AS2D_TECH_MP_SUPERCONDUCTOR
       Button: ',Art/Interface/Buttons/TechTree/Superconductor.dds,Art/Interface/Buttons/TechTree_Atlas.dds,3,12'
     - Type: TECH_COMPUTERS
-      Description: TXT_KEY_TECH_COMPUTERS
-      Civilopedia: TXT_KEY_TECH_COMPUTERS_PEDIA
+      Description: TXT_KEY_TECH_COMPUTERS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_COMPUTERS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_COMPUTERS_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -5333,8 +5333,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_COMPUTERS
       Button: ',Art/Interface/Buttons/TechTree/Computers.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,2'
     - Type: TECH_LASER
-      Description: TXT_KEY_TECH_LASER
-      Civilopedia: TXT_KEY_TECH_LASER_PEDIA
+      Description: TXT_KEY_TECH_LASER_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_LASER_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_LASER_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -5391,8 +5391,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_LASER
       Button: ',Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,4,16'
     - Type: TECH_ROCKETRY
-      Description: TXT_KEY_TECH_ROCKETRY
-      Civilopedia: TXT_KEY_TECH_ROCKETRY_PEDIA
+      Description: TXT_KEY_TECH_ROCKETRY_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ROCKETRY_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ROCKETRY_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -5450,8 +5450,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ROCKETRY
       Button: ',Art/Interface/Buttons/TechTree/Rocketry.dds,Art/Interface/Buttons/TechTree_Atlas.dds,5,7'
     - Type: TECH_SATELLITES
-      Description: TXT_KEY_TECH_SATELLITES
-      Civilopedia: TXT_KEY_TECH_SATELLITES_PEDIA
+      Description: TXT_KEY_TECH_SATELLITES_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_SATELLITES_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_SATELLITES_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -5510,8 +5510,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_SATELLITES
       Button: ',Art/Interface/Buttons/TechTree/Satellites.dds,Art/Interface/Buttons/TechTree_Atlas.dds,7,7'
     - Type: TECH_ROBOTICS
-      Description: TXT_KEY_TECH_ROBOTICS
-      Civilopedia: TXT_KEY_TECH_ROBOTICS_PEDIA
+      Description: TXT_KEY_TECH_ROBOTICS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ROBOTICS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ROBOTICS_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -5571,8 +5571,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_ROBOTICS
       Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,7'
     - Type: TECH_FUTURE_TECH
-      Description: TXT_KEY_TECH_FUTURE_TECH
-      Civilopedia: TXT_KEY_TECH_FUTURE_TECH_PEDIA
+      Description: TXT_KEY_TECH_FUTURE_TECH_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_FUTURE_TECH_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_FUTURE_TECH_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -5639,8 +5639,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_FUTURE
       Button: ',Art/Interface/Buttons/TechTree/Future Tech.dds,Art/Interface/Buttons/TechTree_Atlas.dds,2,4'
     - Type: TECH_ADVANCED_SHIELDING
-      Description: TXT_KEY_TECH_ADVANCED_SHIELDING
-      Civilopedia: TXT_KEY_TECH_ADVANCED_SHIELDING_PEDIA
+      Description: TXT_KEY_TECH_ADVANCED_SHIELDING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ADVANCED_SHIELDING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ADVANCED_SHIELDING_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -5696,8 +5696,8 @@ MonoBehaviour:
       SoundMP: Sounds/Tech/AS2D_TECH_MP_ADVANCED_SHIELDING
       Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,2,4'
     - Type: TECH_AQUACULTURE
-      Description: TXT_KEY_TECH_AQUACULTURE
-      Civilopedia: TXT_KEY_TECH_AQUACULTURE_PEDIA
+      Description: TXT_KEY_TECH_AQUACULTURE_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_AQUACULTURE_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_AQUACULTURE_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -5755,8 +5755,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_AQUACULTURE
       Button: ',Art/Interface/Buttons/TechTree/Ecology.dds,Art/Interface/Buttons/NextWar_Atlas.dds,2,3'
     - Type: TECH_BIOLOGICAL_WARFARE
-      Description: TXT_KEY_TECH_BIOLOGICAL_WARFARE
-      Civilopedia: TXT_KEY_TECH_BIOLOGICAL_WARFARE_PEDIA
+      Description: TXT_KEY_TECH_BIOLOGICAL_WARFARE_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_BIOLOGICAL_WARFARE_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_BIOLOGICAL_WARFARE_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -5817,8 +5817,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_BIOLOGICAL_WARFARE
       Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,3,3'
     - Type: TECH_BIONICS
-      Description: TXT_KEY_TECH_BIONICS
-      Civilopedia: TXT_KEY_TECH_BIONICS_PEDIA
+      Description: TXT_KEY_TECH_BIONICS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_BIONICS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_BIONICS_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -5875,8 +5875,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_BIONICS
       Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,4,3'
     - Type: TECH_CLONING
-      Description: TXT_KEY_TECH_CLONING
-      Civilopedia: TXT_KEY_TECH_CLONING_PEDIA
+      Description: TXT_KEY_TECH_CLONING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_CLONING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_CLONING_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -5933,8 +5933,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_CLONING
       Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,5,3'
     - Type: TECH_COLD_FUSION
-      Description: TXT_KEY_TECH_COLD_FUSION
-      Civilopedia: TXT_KEY_TECH_COLD_FUSION_PEDIA
+      Description: TXT_KEY_TECH_COLD_FUSION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_COLD_FUSION_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_COLD_FUSION_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -5991,8 +5991,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_COLD_FUSION
       Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,6,3'
     - Type: TECH_CYBERNETICS
-      Description: TXT_KEY_TECH_CYBERNETICS
-      Civilopedia: TXT_KEY_TECH_CYBERNETICS_PEDIA
+      Description: TXT_KEY_TECH_CYBERNETICS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_CYBERNETICS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_CYBERNETICS_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -6048,8 +6048,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_CYBERNETICS
       Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,7,3'
     - Type: TECH_HYDROPONICS
-      Description: TXT_KEY_TECH_HYDROPONICS
-      Civilopedia: TXT_KEY_TECH_HYDROPONICS_PEDIA
+      Description: TXT_KEY_TECH_HYDROPONICS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_HYDROPONICS_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_HYDROPONICS_STRATEGY
       Advisor: ADVISOR_GROWTH
@@ -6107,8 +6107,8 @@ MonoBehaviour:
       SoundMP: AS2D_TECH_MP_HYDROPONICS
       Button: ',Art/Interface/Buttons/TechTree/Ecology.dds,Art/Interface/Buttons/NextWar_Atlas.dds,8,3'
     - Type: TECH_SHIELDING
-      Description: TXT_KEY_TECH_SHIELDING
-      Civilopedia: TXT_KEY_TECH_SHIELDING_PEDIA
+      Description: TXT_KEY_TECH_SHIELDING_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_SHIELDING_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_SHIELDING_STRATEGY
       Advisor: ADVISOR_MILITARY
@@ -6164,13 +6164,14 @@ MonoBehaviour:
       - TECH_FUSION
       AndPreReqs:
       - TECH_COMPUTERS
+      - TECH_META_MATERIALS
       Quote: TXT_KEY_TECH_SHIELDING_QUOTE
       Sound: AS2D_TECH_SHIELDING
       SoundMP: AS2D_TECH_MP_SHIELDING
       Button: ',Art/Interface/Buttons/TechTree/Robotics.dds,Art/Interface/Buttons/NextWar_Atlas.dds,1,3'
     - Type: TECH_ASTROGATION
-      Description: TXT_KEY_TECH_ASTROGATION
-      Civilopedia: TXT_KEY_TECH_ASTROGATION_PEDIA
+      Description: TXT_KEY_TECH_ASTROGATION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ASTROGATION_CIVILOPEDIA
       Help: 
       Strategy: TXT_KEY_TECH_ASTROGATION_STRATEGY
       Advisor: ADVISOR_SCIENCE
@@ -6225,3 +6226,187 @@ MonoBehaviour:
       Sound: AS2D_TECH_ASTROGATION
       SoundMP: AS2D_TECH_MP_ASTROGATION
       Button: Art/Interface/Buttons/TechTree/Astrogation.dds
+    - Type: TECH_ORGANIZED_PRODUCTION
+      Description: TXT_KEY_TECH_ORGANIZED_PRODUCTION_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_ORGANIZED_PRODUCTION_CIVILOPEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_ORGANIZED_PRODUCTION_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 270
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 25
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 5
+      GridY: 12
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 9
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 8
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 2
+      OrPreReqs:
+      - TECH_IRON_WORKING
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_ORGANIZED_PRODUCTION_QUOTE
+      Sound: NONE
+      SoundMP: NONE
+      Button: Art/Interface/Buttons/TechTree/OrganizedProduction.dds
+    - Type: TECH_NANO_FILMS
+      Description: TXT_KEY_TECH_NANO_FILMS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_NANO_FILMS_CIVILOPEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_NANO_FILMS_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 8000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 19
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 9
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 8
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 2
+      OrPreReqs:
+      - TECH_COMPOSITES
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_NANO_FILMS_QUOTE
+      Sound: NONE
+      SoundMP: NONE
+      Button: Art/Interface/Buttons/TechTree/NanoFilms.dds
+    - Type: TECH_META_MATERIALS
+      Description: TXT_KEY_TECH_META_MATERIALS_DESCRIPTION
+      Civilopedia: TXT_KEY_TECH_META_MATERIALS_CIVILOPEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_META_MATERIALS_STRATEGY
+      Advisor: ADVISOR_SCIENCE
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 9000
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_MODERN
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 20
+      GridY: 5
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_RELIGION
+        flavor: 9
+      - FlavorType: FLAVOR_GOLD
+        flavor: 1
+      - FlavorType: FLAVOR_CULTURE
+        flavor: 8
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 2
+      OrPreReqs:
+      - TECH_NANO_FILMS
+      AndPreReqs:
+      - TECH_FIBER_OPTICS
+      Quote: TXT_KEY_TECH_META_MATERIALS_QUOTE
+      Sound: NONE
+      SoundMP: NONE
+      Button: Art/Interface/Buttons/TechTree/MetaMaterials.dds

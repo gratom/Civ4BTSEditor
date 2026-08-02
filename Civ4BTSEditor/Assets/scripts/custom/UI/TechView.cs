@@ -53,9 +53,14 @@ public class TechView : RectComponent
         return lineWrapper;
     }
 
-    private Vector2 CordToPos(TechInfo tech)
+    public static Vector2 CordToPos(TechInfo tech)
     {
         return new Vector2(tech.GridX * X_SCALING, -tech.GridY * Y_SCALING);
+    }
+
+    public static Vector2 CordToPos(int gridX, int gridY)
+    {
+        return new Vector2(gridX * X_SCALING, -gridY * Y_SCALING);
     }
 
     private void DestroyLines()
@@ -87,6 +92,15 @@ public class TechView : RectComponent
     {
         base.OnValidate();
         CheckPos();
+        CheckNames();
+    }
+    
+    private void CheckNames()
+    {
+        data.Description = Main.TXT_KEY + data.Type + Main.DESCRIPTION;
+        data.Civilopedia = Main.TXT_KEY + data.Type + Main.CIVILOPEDIA;
+        data.Strategy = Main.TXT_KEY + data.Type + Main.STRATEGY;
+        data.Quote = Main.TXT_KEY + data.Type + Main.QUOTE;
     }
 
     public void CheckPos()
@@ -95,7 +109,7 @@ public class TechView : RectComponent
         {
             return;
         }
-        
+
         int x = data.GridX;
         int y = data.GridY;
 
