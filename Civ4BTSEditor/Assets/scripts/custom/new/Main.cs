@@ -35,7 +35,15 @@ public class Main : MonoBehaviour
         Dictionary<string, TechInfo> ret = new Dictionary<string, TechInfo>();
         foreach (string preReq in tech.OrPreReqs)
         {
-            ret.Add(preReq, techAsset.value.TechInfos.First(x => x.Type == preReq));
+            TechInfo t = techAsset.value.TechInfos.FirstOrDefault(x => x.Type == preReq);
+            if (t != null)
+            {
+                ret.Add(preReq, t);
+            }
+            else
+            {
+                Debug.Log(string.Format($"Tech for 'OR' {preReq} not found"));
+            }
         }
         return ret;
     }
@@ -45,7 +53,15 @@ public class Main : MonoBehaviour
         Dictionary<string, TechInfo> ret = new Dictionary<string, TechInfo>();
         foreach (string preReq in tech.AndPreReqs)
         {
-            ret.Add(preReq, techAsset.value.TechInfos.First(x => x.Type == preReq));
+            TechInfo t = techAsset.value.TechInfos.FirstOrDefault(x => x.Type == preReq);
+            if (t != null)
+            {
+                ret.Add(preReq, t);
+            }
+            else
+            {
+                Debug.Log(string.Format($"Tech for 'AND' {preReq} not found"));
+            }
         }
         return ret;
     }

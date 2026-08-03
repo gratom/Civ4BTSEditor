@@ -4477,9 +4477,10 @@ MonoBehaviour:
       - FlavorType: FLAVOR_GROWTH
         flavor: 2
       OrPreReqs:
-      - TECH_COMPASS
+      - TECH_GLASSWORKING
       AndPreReqs:
       - TECH_MACHINERY
+      - TECH_MATHEMATICS
       Quote: TXT_KEY_TECH_OPTICS_QUOTE
       Sound: AS2D_TECH_OPTICS
       SoundMP: AS2D_TECH_MP_OPTICS
@@ -6239,7 +6240,7 @@ MonoBehaviour:
       Cost: 270
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
-      Era: ERA_ANCIENT
+      Era: ERA_CLASSICAL
       FirstFreeUnitClass: NONE
       FeatureProductionModifier: 0
       WorkerSpeedModifier: 25
@@ -6274,14 +6275,14 @@ MonoBehaviour:
       TerrainTrades: []
       RiverTrade: 0
       Flavors:
-      - FlavorType: FLAVOR_RELIGION
+      - FlavorType: FLAVOR_PRODUCTION
         flavor: 9
-      - FlavorType: FLAVOR_GOLD
-        flavor: 1
-      - FlavorType: FLAVOR_CULTURE
-        flavor: 8
-      - FlavorType: FLAVOR_GROWTH
+      - FlavorType: FLAVOR_SCIENCE
         flavor: 2
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 7
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 1
       OrPreReqs:
       - TECH_IRON_WORKING
       AndPreReqs: []
@@ -6412,3 +6413,65 @@ MonoBehaviour:
       Sound: NONE
       SoundMP: NONE
       Button: Art/Interface/Buttons/TechTree/MetaMaterials.dds
+    - Type: TECH_GLASSWORKING
+      Description: TXT_KEY_TECH_GLASSWORKING
+      Civilopedia: TXT_KEY_TECH_GLASSWORKING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_GLASSWORKING_STRATEGY
+      Advisor: ADVISOR_ECONOMY
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 500
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_CLASSICAL
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 6
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_GOLD
+        flavor: 5
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 3
+      - FlavorType: FLAVOR_PRODUCTION
+        flavor: 7
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 1
+      OrPreReqs:
+      - TECH_COMPASS
+      AndPreReqs:
+      - TECH_ORGANIZED_PRODUCTION
+      Quote: TXT_KEY_TECH_GLASSWORKING_QUOTE
+      Sound: NONE
+      SoundMP: NONE
+      Button: Art/Interface/Buttons/TechTree/GlassWorking.dds

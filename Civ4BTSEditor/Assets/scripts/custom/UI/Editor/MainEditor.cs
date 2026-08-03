@@ -1,11 +1,8 @@
 ﻿#if UNITY_EDITOR
-
 using System;
 using UnityEditor;
-using UnityEngine;
-
-[CustomEditor(typeof(TechView))]
-public class TechViewEditor : Editor
+[CustomEditor(typeof(Main))]
+public class MainEditor : Editor
 {
     public override void OnInspectorGUI()
     {
@@ -19,6 +16,4 @@ public class TechViewEditor : Editor
         }
     }
 }
-
-
 #endif
