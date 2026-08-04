@@ -9,7 +9,7 @@ public class TechView : RectComponent
 {
     public const float X_SCALING = 800;
     public const float Y_SCALING = 150;
-
+    
     [SerializeField] public TechInfo data;
     [SerializeField] private Image image;
     [SerializeField] private Text textName;
@@ -94,13 +94,14 @@ public class TechView : RectComponent
         CheckPos();
         CheckNames();
     }
-    
+
     private void CheckNames()
     {
         data.Description = Main.TXT_KEY + data.Type + Main.DESCRIPTION;
         data.Civilopedia = Main.TXT_KEY + data.Type + Main.CIVILOPEDIA;
         data.Strategy = Main.TXT_KEY + data.Type + Main.STRATEGY;
         data.Quote = Main.TXT_KEY + data.Type + Main.QUOTE;
+        //data.Button = "Art/Interface/Buttons/TechTree/" + data.Type.Substring(0, 1) + data.Type.ToLower().Substring(1);
     }
 
     public void CheckPos()

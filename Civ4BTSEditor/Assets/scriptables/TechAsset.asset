@@ -385,7 +385,7 @@ MonoBehaviour:
       Advisor: ADVISOR_CULTURE
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 200
+      Cost: 180
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_CLASSICAL
@@ -416,7 +416,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 6
+      GridX: 5
       GridY: 1
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -430,7 +430,7 @@ MonoBehaviour:
       - FlavorType: FLAVOR_CULTURE
         flavor: 10
       OrPreReqs:
-      - TECH_AESTHETICS
+      - TECH_WRITING
       AndPreReqs:
       - TECH_POLYTHEISM
       Quote: TXT_KEY_TECH_LITERATURE_QUOTE
@@ -510,7 +510,7 @@ MonoBehaviour:
       Advisor: ADVISOR_CULTURE
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 300
+      Cost: 425
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_CLASSICAL
@@ -541,8 +541,8 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 7
-      GridY: 2
+      GridX: 8
+      GridY: 1
       DomainExtraMoves: []
       CommerceFlexible: 000000000000000001000000
       TerrainTrades: []
@@ -558,7 +558,8 @@ MonoBehaviour:
         flavor: 4
       OrPreReqs:
       - TECH_AESTHETICS
-      AndPreReqs: []
+      AndPreReqs:
+      - TECH_AESTHETICS
       Quote: TXT_KEY_TECH_DRAMA_QUOTE
       Sound: AS2D_TECH_DRAMA
       SoundMP: AS2D_TECH_MP_DRAMA
@@ -722,7 +723,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 8
+      GridX: 9
       GridY: 1
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -738,7 +739,6 @@ MonoBehaviour:
       - FlavorType: FLAVOR_CULTURE
         flavor: 10
       OrPreReqs:
-      - TECH_LITERATURE
       - TECH_DRAMA
       AndPreReqs:
       - TECH_MATHEMATICS
@@ -754,7 +754,7 @@ MonoBehaviour:
       Advisor: ADVISOR_GROWTH
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 800
+      Cost: 1000
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_MEDIEVAL
@@ -786,7 +786,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 8
-      GridY: 7
+      GridY: 8
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -809,8 +809,7 @@ MonoBehaviour:
       OrPreReqs:
       - TECH_CODE_OF_LAWS
       - TECH_FEUDALISM
-      AndPreReqs:
-      - TECH_MATHEMATICS
+      AndPreReqs: []
       Quote: TXT_KEY_TECH_CIVIL_SERVICE_QUOTE
       Sound: AS2D_TECH_CIVIL_SERVICE
       SoundMP: AS2D_TECH_MP_CIVIL_SERVICE
@@ -947,7 +946,7 @@ MonoBehaviour:
       Advisor: ADVISOR_MILITARY
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 1800
+      Cost: 1500
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_RENAISSANCE
@@ -1012,7 +1011,7 @@ MonoBehaviour:
       Advisor: ADVISOR_MILITARY
       AILWeight: 0
       AITradeModifier: 10
-      Cost: 2000
+      Cost: 1800
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_RENAISSANCE
@@ -1072,7 +1071,7 @@ MonoBehaviour:
       Advisor: ADVISOR_ECONOMY
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 2000
+      Cost: 2500
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_RENAISSANCE
@@ -1134,7 +1133,7 @@ MonoBehaviour:
       Advisor: ADVISOR_ECONOMY
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 1400
+      Cost: 2000
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_RENAISSANCE
@@ -1194,7 +1193,7 @@ MonoBehaviour:
       Advisor: ADVISOR_ECONOMY
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 2800
+      Cost: 3300
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_RENAISSANCE
@@ -1252,7 +1251,7 @@ MonoBehaviour:
       Advisor: ADVISOR_ECONOMY
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 1600
+      Cost: 2200
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_RENAISSANCE
@@ -1807,7 +1806,7 @@ MonoBehaviour:
       Advisor: ADVISOR_CULTURE
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 300
+      Cost: 400
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_CLASSICAL
@@ -1838,8 +1837,8 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 5
-      GridY: 2
+      GridX: 6
+      GridY: 1
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -1852,7 +1851,8 @@ MonoBehaviour:
       - FlavorType: FLAVOR_CULTURE
         flavor: 8
       OrPreReqs:
-      - TECH_WRITING
+      - TECH_GEOMETRY
+      - TECH_LITERATURE
       AndPreReqs: []
       Quote: TXT_KEY_TECH_AESTHETICS_QUOTE
       Sound: AS2D_TECH_AESTHETICS
@@ -1897,7 +1897,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 2
+      GridX: 3
       GridY: 14
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -1994,7 +1994,7 @@ MonoBehaviour:
       Advisor: ADVISOR_SCIENCE
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 250
+      Cost: 200
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_CLASSICAL
@@ -2163,6 +2163,7 @@ MonoBehaviour:
       - FlavorType: FLAVOR_GROWTH
         flavor: 1
       OrPreReqs:
+      - TECH_GEOMETRY
       - TECH_MATHEMATICS
       AndPreReqs:
       - TECH_SAILING
@@ -2223,8 +2224,8 @@ MonoBehaviour:
       - FlavorType: FLAVOR_GROWTH
         flavor: 3
       OrPreReqs:
-      - TECH_MATHEMATICS
       - TECH_ALPHABET
+      - TECH_MATHEMATICS
       AndPreReqs: []
       Quote: TXT_KEY_TECH_CURRENCY_QUOTE
       Sound: AS2D_TECH_CURRENCY
@@ -2269,7 +2270,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 8
+      GridX: 9
       GridY: 3
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -2361,7 +2362,7 @@ MonoBehaviour:
       Advisor: ADVISOR_ECONOMY
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 700
+      Cost: 1200
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_MEDIEVAL
@@ -2541,7 +2542,7 @@ MonoBehaviour:
       Advisor: ADVISOR_ECONOMY
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 1400
+      Cost: 1800
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_RENAISSANCE
@@ -2634,8 +2635,8 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 12
-      GridY: 7
+      GridX: 10
+      GridY: 8
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades:
@@ -2649,7 +2650,8 @@ MonoBehaviour:
         flavor: 3
       - FlavorType: FLAVOR_GROWTH
         flavor: 5
-      OrPreReqs: []
+      OrPreReqs:
+      - TECH_PAPER
       AndPreReqs:
       - TECH_CALENDAR
       - TECH_OPTICS
@@ -2723,7 +2725,7 @@ MonoBehaviour:
       Advisor: ADVISOR_SCIENCE
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 2400
+      Cost: 3000
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_INDUSTRIAL
@@ -2769,7 +2771,6 @@ MonoBehaviour:
         flavor: 10
       OrPreReqs:
       - TECH_CHEMISTRY
-      - TECH_ASTRONOMY
       AndPreReqs:
       - TECH_PRINTING_PRESS
       Quote: TXT_KEY_TECH_SCIENTIFIC_METHOD_QUOTE
@@ -2784,7 +2785,7 @@ MonoBehaviour:
       Advisor: ADVISOR_SCIENCE
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 4000
+      Cost: 4700
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_INDUSTRIAL
@@ -2830,8 +2831,7 @@ MonoBehaviour:
         flavor: 10
       OrPreReqs:
       - TECH_SCIENTIFIC_METHOD
-      AndPreReqs:
-      - TECH_ASTRONOMY
+      AndPreReqs: []
       Quote: TXT_KEY_TECH_PHYSICS_QUOTE
       Sound: AS2D_TECH_PHYSICS
       SoundMP: AS2D_TECH_MP_PHYSICS
@@ -2844,7 +2844,7 @@ MonoBehaviour:
       Advisor: ADVISOR_SCIENCE
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 3600
+      Cost: 3850
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_INDUSTRIAL
@@ -2904,7 +2904,7 @@ MonoBehaviour:
       Advisor: ADVISOR_GROWTH
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 4500
+      Cost: 4800
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_INDUSTRIAL
@@ -2968,7 +2968,7 @@ MonoBehaviour:
       Advisor: ADVISOR_ECONOMY
       AILWeight: 0
       AITradeModifier: 10
-      Cost: 4500
+      Cost: 6000
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_INDUSTRIAL
@@ -3029,7 +3029,7 @@ MonoBehaviour:
       Advisor: ADVISOR_MILITARY
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 3600
+      Cost: 5500
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_INDUSTRIAL
@@ -3269,7 +3269,7 @@ MonoBehaviour:
       Advisor: ADVISOR_ECONOMY
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 7000
+      Cost: 8500
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_MODERN
@@ -4023,7 +4023,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 3
-      GridY: 4
+      GridY: 5
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -4227,7 +4227,7 @@ MonoBehaviour:
         flavor: 4
       OrPreReqs:
       - TECH_IRON_WORKING
-      - TECH_SAILING
+      - TECH_SHIPBUILDING
       AndPreReqs: []
       Quote: TXT_KEY_TECH_COMPASS_QUOTE
       Sound: AS2D_TECH_COMPASS
@@ -4368,7 +4368,7 @@ MonoBehaviour:
       Advisor: ADVISOR_MILITARY
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 1000
+      Cost: 1200
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_MEDIEVAL
@@ -4399,7 +4399,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 7
+      GridX: 8
       GridY: 5
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -4418,6 +4418,7 @@ MonoBehaviour:
       - TECH_CONSTRUCTION
       AndPreReqs:
       - TECH_MACHINERY
+      - TECH_GEOMETRY
       Quote: TXT_KEY_TECH_ENGINEERING_QUOTE
       Sound: AS2D_TECH_ENGINEERING
       SoundMP: AS2D_TECH_MP_ENGINEERING
@@ -4480,7 +4481,6 @@ MonoBehaviour:
       - TECH_GLASSWORKING
       AndPreReqs:
       - TECH_MACHINERY
-      - TECH_MATHEMATICS
       Quote: TXT_KEY_TECH_OPTICS_QUOTE
       Sound: AS2D_TECH_OPTICS
       SoundMP: AS2D_TECH_MP_OPTICS
@@ -4493,7 +4493,7 @@ MonoBehaviour:
       Advisor: ADVISOR_MILITARY
       AILWeight: 0
       AITradeModifier: 10
-      Cost: 1200
+      Cost: 1700
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_RENAISSANCE
@@ -4553,7 +4553,7 @@ MonoBehaviour:
       Advisor: ADVISOR_MILITARY
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 1800
+      Cost: 2250
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_RENAISSANCE
@@ -4797,7 +4797,7 @@ MonoBehaviour:
       Advisor: ADVISOR_MILITARY
       AILWeight: 0
       AITradeModifier: 10
-      Cost: 2800
+      Cost: 3500
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_INDUSTRIAL
@@ -4917,7 +4917,7 @@ MonoBehaviour:
       Advisor: ADVISOR_ECONOMY
       AILWeight: 0
       AITradeModifier: 10
-      Cost: 4500
+      Cost: 5200
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_INDUSTRIAL
@@ -5040,7 +5040,7 @@ MonoBehaviour:
       Advisor: ADVISOR_ECONOMY
       AILWeight: 0
       AITradeModifier: 10
-      Cost: 6500
+      Cost: 7800
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_INDUSTRIAL
@@ -5102,7 +5102,7 @@ MonoBehaviour:
       Advisor: ADVISOR_CULTURE
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 6000
+      Cost: 6500
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_MODERN
@@ -5161,7 +5161,7 @@ MonoBehaviour:
       Advisor: ADVISOR_GROWTH
       AILWeight: 0
       AITradeModifier: 0
-      Cost: 4000
+      Cost: 5000
       AdvancedStartCost: 100
       AdvancedStartCostIncrease: 0
       Era: ERA_MODERN
@@ -6475,3 +6475,120 @@ MonoBehaviour:
       Sound: NONE
       SoundMP: NONE
       Button: Art/Interface/Buttons/TechTree/GlassWorking.dds
+    - Type: TECH_GEOMETRY
+      Description: TXT_KEY_TECH_GEOMETRY
+      Civilopedia: TXT_KEY_TECH_GEOMETRY_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_GEOMETRY_STRATEGY
+      Advisor: ADVISOR_RELIGION
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 175
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 5
+      GridY: 3
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 8
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 4
+      - FlavorType: FLAVOR_SCIENCE
+        flavor: 8
+      OrPreReqs:
+      - TECH_WRITING
+      AndPreReqs: []
+      Quote: TXT_KEY_TECH_GEOMETRY_QUOTE
+      Sound: NONE
+      SoundMP: NONE
+      Button: Art/Interface/Buttons/TechTree/Geometry.dds
+    - Type: TECH_SHIPBUILDING
+      Description: TXT_KEY_TECH_SHIPBUILDING
+      Civilopedia: TXT_KEY_TECH_SHIPBUILDING_PEDIA
+      Help: 
+      Strategy: TXT_KEY_TECH_SHIPBUILDING_STRATEGY
+      Advisor: ADVISOR_RELIGION
+      AILWeight: 0
+      AITradeModifier: 0
+      Cost: 160
+      AdvancedStartCost: 100
+      AdvancedStartCostIncrease: 0
+      Era: ERA_ANCIENT
+      FirstFreeUnitClass: NONE
+      FeatureProductionModifier: 0
+      WorkerSpeedModifier: 0
+      TradeRoutes: 0
+      Health: 0
+      Happiness: 0
+      FirstFreeTechs: 0
+      Asset: 8
+      Power: 0
+      Repeat: 0
+      Trade: 1
+      Disable: 0
+      GoodyTech: 1
+      ExtraWaterSeeFrom: 0
+      MapCentering: 0
+      MapVisible: 0
+      MapTrading: 0
+      TechTrading: 0
+      GoldTrading: 0
+      OpenBordersTrading: 0
+      DefensivePactTrading: 0
+      PermanentAllianceTrading: 0
+      VassalTrading: 0
+      BridgeBuilding: 0
+      Irrigation: 0
+      IgnoreIrrigation: 0
+      WaterWork: 0
+      GridX: 4
+      GridY: 14
+      DomainExtraMoves: []
+      CommerceFlexible: 
+      TerrainTrades: []
+      RiverTrade: 0
+      Flavors:
+      - FlavorType: FLAVOR_MILITARY
+        flavor: 9
+      - FlavorType: FLAVOR_GROWTH
+        flavor: 4
+      OrPreReqs:
+      - TECH_SAILING
+      AndPreReqs:
+      - TECH_BRONZE_WORKING
+      Quote: TXT_KEY_TECH_SHIPBUILDING_QUOTE
+      Sound: NONE
+      SoundMP: NONE
+      Button: Art/Interface/Buttons/TechTree/Shipbuilding.dds

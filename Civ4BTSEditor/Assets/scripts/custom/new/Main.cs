@@ -95,7 +95,8 @@ public class Main : MonoBehaviour
         data.Civilopedia = TXT_KEY + data.Type + CIVILOPEDIA;
         data.Strategy = TXT_KEY + data.Type + STRATEGY;
         data.Quote = TXT_KEY + data.Type + QUOTE;
-
+        data.Sound = "NONE";
+        data.SoundMP = "NONE";
 
         t.InitWith(data, this);
         techObjects.Add(t);
@@ -140,6 +141,17 @@ public class Main : MonoBehaviour
     public static void RefreshLinksFromMenu()
     {
         FindFirstObjectByType<Main>()?.RefreshLinks();
+    }
+
+    [MenuItem("Custom/Resresh All &r")]
+    public static void RefreshAll()
+    {
+        Main m = FindFirstObjectByType<Main>();
+        if (m != null)
+        {
+            m.GameObjects2Object();
+            m.Object2GameObjects();
+        }
     }
 
     [ContextMenu("refresh links")]
