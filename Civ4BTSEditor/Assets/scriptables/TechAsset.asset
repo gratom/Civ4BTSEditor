@@ -541,7 +541,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 8
+      GridX: 7
       GridY: 1
       DomainExtraMoves: []
       CommerceFlexible: 000000000000000001000000
@@ -723,7 +723,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 9
+      GridX: 8
       GridY: 1
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -916,7 +916,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 9
-      GridY: 5
+      GridY: 1
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -1164,7 +1164,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 11
+      GridX: 12
       GridY: 8
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -1283,7 +1283,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 12
-      GridY: 10
+      GridY: 6
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -1425,9 +1425,8 @@ MonoBehaviour:
       - FlavorType: FLAVOR_GROWTH
         flavor: 1
       OrPreReqs:
-      - TECH_SCIENTIFIC_METHOD
-      AndPreReqs:
       - TECH_LIBERALISM
+      AndPreReqs: []
       Quote: TXT_KEY_TECH_UTOPIA_QUOTE
       Sound: AS2D_TECH_UTOPIA
       SoundMP: AS2D_TECH_MP_UTOPIA
@@ -2270,7 +2269,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 9
+      GridX: 8
       GridY: 3
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -2284,10 +2283,10 @@ MonoBehaviour:
       - FlavorType: FLAVOR_CULTURE
         flavor: 6
       OrPreReqs:
-      - TECH_CODE_OF_LAWS
       - TECH_DRAMA
       AndPreReqs:
       - TECH_MEDITATION
+      - TECH_CODE_OF_LAWS
       Quote: TXT_KEY_TECH_PHILOSOPHY_QUOTE
       Sound: AS2D_TECH_PHILOSOPHY
       SoundMP: AS2D_TECH_MP_PHILOSOPHY
@@ -2452,7 +2451,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 10
-      GridY: 10
+      GridY: 8
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -2530,6 +2529,7 @@ MonoBehaviour:
       AndPreReqs:
       - TECH_MACHINERY
       - TECH_ALPHABET
+      - TECH_ENGINEERING
       Quote: TXT_KEY_TECH_PRINTING_PRESS_QUOTE
       Sound: AS2D_TECH_PRINTPRESS
       SoundMP: AS2D_TECH_MP_PRINTPRESS
@@ -2574,7 +2574,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 11
-      GridY: 10
+      GridY: 7
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -2590,6 +2590,7 @@ MonoBehaviour:
         flavor: 3
       OrPreReqs:
       - TECH_EDUCATION
+      - TECH_PRINTING_PRESS
       AndPreReqs:
       - TECH_BANKING
       Quote: TXT_KEY_TECH_ECONOMICS_QUOTE
@@ -2636,7 +2637,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 10
-      GridY: 8
+      GridY: 10
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades:
@@ -2757,7 +2758,7 @@ MonoBehaviour:
       IgnoreIrrigation: 0
       WaterWork: 0
       GridX: 13
-      GridY: 9
+      GridY: 11
       DomainExtraMoves: []
       CommerceFlexible: 
       TerrainTrades: []
@@ -3476,7 +3477,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 19
+      GridX: 20
       GridY: 13
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -4226,9 +4227,9 @@ MonoBehaviour:
       - FlavorType: FLAVOR_GROWTH
         flavor: 4
       OrPreReqs:
-      - TECH_IRON_WORKING
       - TECH_SHIPBUILDING
-      AndPreReqs: []
+      AndPreReqs:
+      - TECH_IRON_WORKING
       Quote: TXT_KEY_TECH_COMPASS_QUOTE
       Sound: AS2D_TECH_COMPASS
       SoundMP: AS2D_TECH_MP_COMPASS
@@ -5551,7 +5552,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 19
+      GridX: 18
       GridY: 11
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -5612,7 +5613,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 23
+      GridX: 24
       GridY: 7
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -5796,7 +5797,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 20
+      GridX: 21
       GridY: 12
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -5858,7 +5859,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 21
+      GridX: 22
       GridY: 14
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -5916,7 +5917,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 20
+      GridX: 21
       GridY: 14
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -5974,7 +5975,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 21
+      GridX: 22
       GridY: 5
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -5989,6 +5990,7 @@ MonoBehaviour:
       - TECH_FUSION
       AndPreReqs:
       - TECH_BIONICS
+      - TECH_META_MATERIALS
       Quote: TXT_KEY_TECH_COLD_FUSION_QUOTE
       Sound: AS2D_TECH_COLD_FUSION
       SoundMP: AS2D_TECH_MP_COLD_FUSION
@@ -6032,7 +6034,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 22
+      GridX: 23
       GridY: 13
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -6211,7 +6213,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 21
+      GridX: 22
       GridY: 12
       DomainExtraMoves: []
       CommerceFlexible: 
@@ -6390,7 +6392,7 @@ MonoBehaviour:
       Irrigation: 0
       IgnoreIrrigation: 0
       WaterWork: 0
-      GridX: 20
+      GridX: 21
       GridY: 5
       DomainExtraMoves: []
       CommerceFlexible: 
