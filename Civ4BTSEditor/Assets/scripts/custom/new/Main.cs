@@ -10,6 +10,8 @@ using Random = UnityEngine.Random;
 
 public class Main : MonoBehaviour
 {
+    public static Main Instance => FindFirstObjectByType<Main>();
+
     public TechXMLAsset techAsset;
 
     public TechView techViewPrefab;
@@ -104,6 +106,29 @@ public class Main : MonoBehaviour
         Object2GameObjects();
     }
 
+    public void CreateNewTech(TechInfo origin)
+    {
+        TechView t = Instantiate(techViewPrefab, parentTransform);
+        TechInfo data = origin.Copy();
+        data.GridX += 1;
+        data.Type += Random.Range(10000, 100000).ToString();
+        data.Description = TXT_KEY + data.Type + DESCRIPTION;
+        data.Civilopedia = TXT_KEY + data.Type + CIVILOPEDIA;
+        data.Strategy = TXT_KEY + data.Type + STRATEGY;
+        data.Quote = TXT_KEY + data.Type + QUOTE;
+        data.Sound = "NONE";
+        data.SoundMP = "NONE";
+
+        data.OrPreReqs.Clear();
+        data.AndPreReqs.Clear();
+        
+        t.InitWith(data, this);
+        techObjects.Add(t);
+        GameObjects2Object();
+        Object2GameObjects();
+    }
+
+
     private void InitObjects()
     {
         HashSet<int> xPoses = new HashSet<int>();
@@ -146,12 +171,19 @@ public class Main : MonoBehaviour
     [MenuItem("Custom/Resresh All &r")]
     public static void RefreshAll()
     {
-        Main m = FindFirstObjectByType<Main>();
+        Main m = Instance;
         if (m != null)
         {
             m.GameObjects2Object();
             m.Object2GameObjects();
+            Debug.Log("Objects refreshed");
         }
+    }
+
+    [MenuItem("GameObject/Copy tech", false, 0)]
+    private static void ContextSceneMenu(MenuCommand menuCommand)
+    {
+        
     }
 
     [ContextMenu("refresh links")]

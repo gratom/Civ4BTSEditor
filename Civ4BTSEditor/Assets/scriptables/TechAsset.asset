@@ -6316,7 +6316,7 @@ MonoBehaviour:
       Repeat: 0
       Trade: 1
       Disable: 0
-      GoodyTech: 1
+      GoodyTech: 0
       ExtraWaterSeeFrom: 0
       MapCentering: 0
       MapVisible: 0
@@ -6377,7 +6377,7 @@ MonoBehaviour:
       Repeat: 0
       Trade: 1
       Disable: 0
-      GoodyTech: 1
+      GoodyTech: 0
       ExtraWaterSeeFrom: 0
       MapCentering: 0
       MapVisible: 0
@@ -6577,7 +6577,9 @@ MonoBehaviour:
       WaterWork: 0
       GridX: 4
       GridY: 14
-      DomainExtraMoves: []
+      DomainExtraMoves:
+      - DomainType: DOMAIN_SEA
+        IExtraMoves: 1
       CommerceFlexible: 
       TerrainTrades: []
       RiverTrade: 0
