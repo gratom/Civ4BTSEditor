@@ -558,8 +558,7 @@ MonoBehaviour:
         flavor: 4
       OrPreReqs:
       - TECH_AESTHETICS
-      AndPreReqs:
-      - TECH_AESTHETICS
+      AndPreReqs: []
       Quote: TXT_KEY_TECH_DRAMA_QUOTE
       Sound: AS2D_TECH_DRAMA
       SoundMP: AS2D_TECH_MP_DRAMA
@@ -2527,7 +2526,6 @@ MonoBehaviour:
       OrPreReqs:
       - TECH_PAPER
       AndPreReqs:
-      - TECH_MACHINERY
       - TECH_ALPHABET
       - TECH_ENGINEERING
       Quote: TXT_KEY_TECH_PRINTING_PRESS_QUOTE

@@ -651,9 +651,7 @@
       <OrPreReqs>
         <PrereqTech>TECH_AESTHETICS</PrereqTech>
       </OrPreReqs>
-      <AndPreReqs>
-        <PrereqTech>TECH_AESTHETICS</PrereqTech>
-      </AndPreReqs>
+      <AndPreReqs />
       <Quote>TXT_KEY_TECH_DRAMA_QUOTE</Quote>
       <Sound>AS2D_TECH_DRAMA</Sound>
       <SoundMP>AS2D_TECH_MP_DRAMA</SoundMP>
@@ -3008,7 +3006,6 @@
         <PrereqTech>TECH_PAPER</PrereqTech>
       </OrPreReqs>
       <AndPreReqs>
-        <PrereqTech>TECH_MACHINERY</PrereqTech>
         <PrereqTech>TECH_ALPHABET</PrereqTech>
         <PrereqTech>TECH_ENGINEERING</PrereqTech>
       </AndPreReqs>
